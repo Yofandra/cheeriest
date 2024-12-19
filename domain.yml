@@ -1,0 +1,44 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - share_feelings
+  - need_support
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Haloo!!, Aku disini dengerin kamuuu. Ada cerita apa hari inii?"
+
+  utter_cheer_up:
+  - text: "Semangatt!!, kamu pasti bisa!"
+
+  utter_did_that_help:
+  - text: "Apakah aku membantu?"
+
+  utter_happy:
+  - text: "Bagusss!!, tetep bahagia terus yaa"
+
+  utter_goodbye:
+  - text: "Makasiii yaa udah cerita, kamu hebat kok! Sampai jumpa lagi!"
+
+  utter_iamabot:
+  - text: "Haii, aku adalah bot dan namaku cheeriest. Aku disini untuk mendengarkan ceritamu."
+
+  utter_ack_feelings:
+  - text: "Aku mengerti. Kadang kita memang butuh tempat untuk berbagi."
+  
+  utter_offer_support:
+  - text: "Aku di sini untukmu. Ceritakan apa pun yang ingin kamu ungkapkan."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_provide_motivation

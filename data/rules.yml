@@ -1,0 +1,14 @@
+version: "3.0"
+
+rules:
+- rule: balas sapaan
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: balas perpisahan
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+
