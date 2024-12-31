@@ -7,13 +7,12 @@ intents:
   - need_support
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - ask_chatbot
+  - ask_motivation
 
 responses:
   utter_greet:
-  - text: "Haloo!!, Aku disini dengerin kamuuu. Ada cerita apa hari inii?"
+  - text: "Halo!!, Aku disini dengerin kamu. Ada cerita apa hari ini?"
 
   utter_cheer_up:
   - text: "Semangatt!!, kamu pasti bisa!"
@@ -25,16 +24,19 @@ responses:
   - text: "Bagusss!!, tetep bahagia terus yaa"
 
   utter_goodbye:
-  - text: "Makasiii yaa udah cerita, kamu hebat kok! Sampai jumpa lagi!"
+  - text: "Makasih yaa udah cerita, kamu hebat kok! Sampai jumpa lagi!"
 
   utter_iamabot:
-  - text: "Haii, aku adalah bot dan namaku cheeriest. Aku disini untuk mendengarkan ceritamu."
+  - text: "Hai, aku adalah bot dan namaku cheeriest. Aku disini untuk mendengarkan ceritamu."
 
-  utter_ack_feelings:
-  - text: "Aku mengerti. Kadang kita memang butuh tempat untuk berbagi."
+  utter_ask_feelings:
+  - text: "Apa yang kamu rasakan? ada yang ingin kamu ceritakan?"
   
   utter_offer_support:
-  - text: "Aku di sini untukmu. Ceritakan apa pun yang ingin kamu ungkapkan."
+  - text: "Apa yang bisa aku lakukan untuk membantumu?"
+
+  utter_give_motivation:
+  - text: "motivasi mulu, kerja ajg"
 
 session_config:
   session_expiration_time: 60

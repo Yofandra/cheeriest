@@ -11,4 +11,23 @@ rules:
     - intent: goodbye
     - action: utter_goodbye
 
+- rule: tanya chatbot
+  steps:
+    - intent: ask_chatbot
+    - action: utter_iamabot
+
+- rule: berbagi perasaan
+  steps:
+    - intent: share_feelings
+    - action: utter_ask_feelings
+
+- rule: minta bantuan
+  steps:
+    - intent: need_support
+    - action: utter_offer_support
+
+- rule: minta motivasi
+  steps:
+    - intent: ask_motivation
+    - action: utter_give_motivation
 
