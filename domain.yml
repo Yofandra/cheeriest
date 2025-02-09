@@ -1,7 +1,7 @@
 version: "3.1"
 
 intents:
-  - greet
+  - greeting
   - goodbye
   - share_feelings
   - need_support
@@ -9,10 +9,11 @@ intents:
   - deny
   - ask_chatbot
   - ask_motivation
+  - feeling_worthless
 
 responses:
-  utter_greet:
-  - text: "Halo!!, Aku disini dengerin kamu. Ada cerita apa hari ini?"
+  utter_default:
+  - text: "Maaf, saya tidak mengerti. Bisa ulangi?"
 
   utter_cheer_up:
   - text: "Semangatt!!, kamu pasti bisa!"
@@ -22,9 +23,6 @@ responses:
 
   utter_happy:
   - text: "Bagusss!!, tetep bahagia terus yaa"
-
-  utter_goodbye:
-  - text: "Makasih yaa udah cerita, kamu hebat kok! Sampai jumpa lagi!"
 
   utter_iamabot:
   - text: "Hai, aku adalah bot dan namaku cheeriest. Aku disini untuk mendengarkan ceritamu."
@@ -36,7 +34,10 @@ responses:
   - text: "Apa yang bisa aku lakukan untuk membantumu?"
 
   utter_give_motivation:
-  - text: "motivasi mulu, kerja ajg"
+  - text: "motivasi mulu, kamu harus berusaha sendiri juga"
+
+  utter_suggestion_worthless:
+  - text: "Jika orang-orang di sekitar Anda menganggap Anda tidak berharga, mungkin saatnya mencari lingkungan baru. Konteks sosial sangat berpengaruh pada harga diri.Daripada terus berada di tempat yang merendahkan Anda, temukan orang-orang yang menghargai Anda. Tidak ada manusia yang tidak berharga. Perasaan buruk bisa menjadi sinyal untuk keluar dari situasi yang merugikan. Gunakan sebagai dorongan untuk mencari lingkungan yang lebih positif."
 
 session_config:
   session_expiration_time: 60
@@ -44,3 +45,13 @@ session_config:
 
 actions:
   - action_provide_motivation
+  - action_greet_user
+  - action_bye_user
+
+slots:
+  last_greet:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+

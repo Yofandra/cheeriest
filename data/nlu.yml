@@ -1,29 +1,6 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hai
-    - Halo
-    - Apa kabar?
-    - Selamat Pagi
-    - Selamat Malam
-    - Assalamualaikum
-
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - bye bye
-    - makasih
-    - sampai jumpa
 
 - intent: affirm
   examples: |

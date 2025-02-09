@@ -1,33 +1,44 @@
 version: "3.0"
 
 rules:
-- rule: balas sapaan
+- rule: reply greeting
   steps:
-    - intent: greet
-    - action: utter_greet
+    - intent: greeting
+    - action: action_greet_user
 
-- rule: balas perpisahan
+- rule: reply goodbye
   steps:
     - intent: goodbye
-    - action: utter_goodbye
+    - action: action_bye_user
 
-- rule: tanya chatbot
+- rule: ask chatbot
   steps:
     - intent: ask_chatbot
     - action: utter_iamabot
 
-- rule: berbagi perasaan
+- rule: share feelings
   steps:
     - intent: share_feelings
     - action: utter_ask_feelings
 
-- rule: minta bantuan
+- rule: ask support
   steps:
     - intent: need_support
     - action: utter_offer_support
 
-- rule: minta motivasi
+- rule: ask motivation
   steps:
     - intent: ask_motivation
     - action: utter_give_motivation
+
+- rule: worthless suggestion
+  steps:
+    - intent: feeling_worthless
+    - action: utter_suggestion_worthless
+
+- rule: Fallback Response
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default
+
 

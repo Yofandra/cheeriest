@@ -5,7 +5,7 @@ stories:
 - story: curhat sederhana
   steps:
     - intent: greet
-    - action: utter_greet
+    - action: action_greet_user
     - intent: ask_chatbot
     - action: utter_iamabot
     - intent: share_feelings
@@ -15,4 +15,4 @@ stories:
     - intent: ask_motivation
     - action: utter_give_motivation
     - intent: goodbye
-    - action: utter_goodbye
+    - action: action_bye_user

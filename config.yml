@@ -17,6 +17,8 @@ pipeline:
   - name: CountVectorsFeaturizer
   - name: DIETClassifier
     epochs: 100
+  - name: FallbackClassifier
+    threshold: 0.3
 
 policies:
   - name: RulePolicy
