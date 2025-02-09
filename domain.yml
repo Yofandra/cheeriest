@@ -38,6 +38,9 @@ responses:
 
   utter_suggestion_worthless:
   - text: "Jika orang-orang di sekitar Anda menganggap Anda tidak berharga, mungkin saatnya mencari lingkungan baru. Konteks sosial sangat berpengaruh pada harga diri.Daripada terus berada di tempat yang merendahkan Anda, temukan orang-orang yang menghargai Anda. Tidak ada manusia yang tidak berharga. Perasaan buruk bisa menjadi sinyal untuk keluar dari situasi yang merugikan. Gunakan sebagai dorongan untuk mencari lingkungan yang lebih positif."
+  
+  utter_suggestion_anxious:
+  - text: "Saya memahami bahwa mengalami kecemasan setelah melalui depresi dalam waktu yang lama bisa sangat melelahkan. Anda tidak sendirian dalam hal ini, dan ada cara untuk mengatasinya. Mungkin Anda bisa mencoba beberapa teknik seperti pernapasan dalam, menulis jurnal, meditasi, atau melakukan aktivitas yang membuat Anda merasa lebih baik. Namun, jika kecemasan ini mulai mengganggu kehidupan sehari-hari atau terasa semakin berat, berbicara dengan seorang profesional bisa menjadi langkah yang baik."
 
 session_config:
   session_expiration_time: 60
