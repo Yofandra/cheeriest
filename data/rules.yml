@@ -36,6 +36,16 @@ rules:
     - intent: feeling_worthless
     - action: utter_suggestion_worthless
 
+- rule: anxious suggestion
+  steps:
+    - intent: feeling_anxious
+    - action: utter_suggestion_anxious
+
+- rule: satisfaction suggestion
+  steps:
+    - intent: satisfaction
+    - action: utter_suggestion_satisfaction
+
 - rule: Fallback Response
   steps:
   - intent: nlu_fallback

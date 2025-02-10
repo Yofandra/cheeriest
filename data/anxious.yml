@@ -1,0 +1,16 @@
+version: "3.1"
+
+nlu:
+- intent: feeling_anxious
+  examples: |
+    - Saya sudah lama mengalami depresi dan sekarang mulai merasa cemas.
+    - Saya memiliki riwayat depresi yang panjang dan belakangan ini sering merasa cemas.
+    - Saya sudah lama berjuang dengan depresi dan sekarang kecemasan mulai muncul.
+    - Saya memiliki masalah depresi sejak lama, dan akhir-akhir ini kecemasan semakin terasa.
+    - Depresi telah menjadi bagian dari hidup saya, dan sekarang saya juga merasa cemas.
+    - Saya sudah lama merasa tertekan, dan sekarang mulai mengalami kecemasan.
+    - Depresi yang saya alami sejak dulu kini disertai dengan rasa cemas.
+    - Saya punya riwayat depresi, dan akhir-akhir ini kecemasan semakin mengganggu.
+    - Saya pernah mengalami depresi berat, dan sekarang kecemasan juga mulai muncul.
+    - Saya telah lama berjuang dengan depresi dan sekarang merasa semakin gelisah.
+    - Saya menghadapi depresi dan kecemasan yang parah dan saya hanya merasa seperti sedang mengalami banyak hal.
