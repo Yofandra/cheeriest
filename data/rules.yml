@@ -46,6 +46,11 @@ rules:
     - intent: satisfaction
     - action: utter_suggestion_satisfaction
 
+- rule: self-harm suggestion
+  steps:
+    - intent: self_harm
+    - action: utter_self_harm
+
 - rule: Fallback Response
   steps:
   - intent: nlu_fallback

@@ -1,0 +1,19 @@
+version: "3.1"
+
+nlu:
+- intent: feeling_anxious
+  examples: |
+    - Saya merasa sangat tertekan, dan saya mencoba berhenti. Namun, ketika sesuatu mengingatkan saya pada kesedihan, saya ingin melukai diri sendiri lagi.
+    - Saya sudah berusaha menahan diri, tetapi ketika sesuatu menyakitkan hati saya, dorongan untuk melukai diri sendiri muncul kembali.
+    - Setiap kali saya melihat sesuatu yang menyedihkan, saya merasa tidak bisa menahan keinginan untuk menyakiti diri sendiri.
+    - Saya mencoba berhenti melukai diri sendiri, tetapi setiap kali saya merasa hancur, keinginan itu muncul lagi.
+    - Kadang-kadang, melihat sesuatu yang menyedihkan membuat saya ingin kembali melukai diri sendiri.
+    - Saya tahu saya seharusnya berhenti, tetapi setiap kali saya merasa putus asa, saya ingin menyakiti diri sendiri lagi.
+    - Saya berusaha kuat, tetapi melihat sesuatu yang menyedihkan membuat saya ingin kembali ke kebiasaan lama.
+    - Saya pernah berhenti sebentar, tetapi rasa sakit emosional membuat saya ingin melukai diri sendiri lagi.
+    - Setiap kali saya mengalami perasaan sedih yang mendalam, dorongan untuk menyakiti diri sendiri terasa sangat kuat.
+    - Saya ingin berhenti, tetapi saya tidak bisa mengendalikan keinginan itu ketika saya merasa sangat sedih.
+    - Saya memiliki kebiasaan melukai diri sendiri, apa yang harus saya lakukan?
+    - Saat saya merasa putus asa, self-harm terasa seperti jalan keluar.
+    - Saya ingin berhenti self-harm, tetapi setiap kali emosi saya tidak stabil, saya kesulitan menahan diri.
+    - Self-harm dulu menjadi pelarian saya, dan terkadang saya masih ingin melakukannya

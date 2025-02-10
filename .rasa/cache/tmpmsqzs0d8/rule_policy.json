@@ -1,0 +1,44 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"share_feelings\"}}]": "utter_ask_feelings",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"share_feelings\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_feelings\"}, \"user\": {\"intent\": \"share_feelings\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_motivation\"}}]": "utter_give_motivation",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_motivation\"}}, {\"prev_action\": {\"action_name\": \"utter_give_motivation\"}, \"user\": {\"intent\": \"ask_motivation\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_chatbot\"}}]": "utter_iamabot",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_chatbot\"}}, {\"prev_action\": {\"action_name\": \"utter_iamabot\"}, \"user\": {\"intent\": \"ask_chatbot\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"need_support\"}}]": "utter_offer_support",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"need_support\"}}, {\"prev_action\": {\"action_name\": \"utter_offer_support\"}, \"user\": {\"intent\": \"need_support\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]": "action_bye_user",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"action_bye_user\"}, \"user\": {\"intent\": \"goodbye\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"satisfaction\"}}]": "utter_suggestion_satisfaction",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"satisfaction\"}}, {\"prev_action\": {\"action_name\": \"utter_suggestion_satisfaction\"}, \"user\": {\"intent\": \"satisfaction\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"feeling_anxious\"}}]": "utter_suggestion_anxious",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"feeling_anxious\"}}, {\"prev_action\": {\"action_name\": \"utter_suggestion_anxious\"}, \"user\": {\"intent\": \"feeling_anxious\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greeting\"}}]": "action_greet_user",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greeting\"}}, {\"prev_action\": {\"action_name\": \"action_greet_user\"}, \"user\": {\"intent\": \"greeting\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"feeling_worthless\"}}]": "utter_suggestion_worthless",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"feeling_worthless\"}}, {\"prev_action\": {\"action_name\": \"utter_suggestion_worthless\"}, \"user\": {\"intent\": \"feeling_worthless\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]": "utter_default",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}, {\"prev_action\": {\"action_name\": \"utter_default\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}, {\"prev_action\": {\"action_name\": \"utter_default\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"satisfaction\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greeting\"}}, {\"prev_action\": {\"action_name\": \"action_greet_user\"}, \"user\": {\"intent\": \"greeting\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"feeling_worthless\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"feeling_worthless\"}}, {\"prev_action\": {\"action_name\": \"utter_suggestion_worthless\"}, \"user\": {\"intent\": \"feeling_worthless\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"feeling_anxious\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greeting\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"satisfaction\"}}, {\"prev_action\": {\"action_name\": \"utter_suggestion_satisfaction\"}, \"user\": {\"intent\": \"satisfaction\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"feeling_anxious\"}}, {\"prev_action\": {\"action_name\": \"utter_suggestion_anxious\"}, \"user\": {\"intent\": \"feeling_anxious\"}}]",
+      "predicting default action with intent session_start"
+    ]
+  }
+}
