@@ -58,6 +58,13 @@ responses:
   - text: "Hai, aku adalah cheeriest, bot yang siap mendengarkan ceritamu. Aku disini untuk mendengarkan ceritamu."
   - text: "Hai, aku adalah cheeriest, bot yang dirancang untuk membantu Anda. Ceritakan tentang diri Anda"
 
+  utter_inform_name:
+  - text: "Oh senang bertemu denganmu {name}. Katakan padaku bagaimana minggumu?"
+  - text: "Senang berkenalan dengan Anda. Jadi katakan padaku. Bagaimana perasaan Anda hari ini?"
+  - text: "Itu nama yang bagus. Ceritakan lebih banyak tentang diri Anda."
+  - text: "Halo, {name}! Senang bertemu denganmu. 😊"
+  - text: "Hai {name}, bagaimana kabarmu hari ini?"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -73,4 +80,8 @@ slots:
     influence_conversation: false
     mappings:
       - type: from_text
+
+  name:
+    type: text
+    influence_conversation: false
 

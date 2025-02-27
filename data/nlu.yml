@@ -114,3 +114,9 @@ nlu:
     - Aku ingin memperbaiki masalahku, tapi aku tidak tahu harus mulai dari mana.
     - Aku tidak punya motivasi untuk melakukan apa pun.
 
+- intent: inform_name
+  examples: |
+    - nama saya [Yofa](name)
+    - saya bernama [Icha](name)
+    - panggil saya [Arta](name)
+    - saya [Aulia](name)
