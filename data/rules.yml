@@ -56,3 +56,8 @@ rules:
     - intent: need_help
     - action: utter_need_help
 
+- rule: feeling sad
+  steps:
+    - intent: feeling_sad
+    - action: utter_feeling_sad
+

@@ -70,6 +70,12 @@ responses:
   - text: "Ceritakan masalah Anda sehingga saya dapat membantu Anda
   - text: "Ya, tentu saja. Bagaimana saya bisa membantu Anda?"
 
+  utter_feeling_sad:
+  - text: "Saya menyesal mendengarnya. Aku di sini untukmu. Membicarakannya mungkin membantu. Jadi, beri tahu saya mengapa menurut Anda Anda merasa seperti ini?
+  - text: "Aku di sini untukmu. Bisakah Anda memberi tahu saya mengapa Anda merasa seperti ini?
+  - text: "Menurut Anda mengapa Anda merasa seperti ini?
+  - text: "Sudah berapa lama Anda merasa seperti ini?"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

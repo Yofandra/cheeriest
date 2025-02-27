@@ -132,3 +132,14 @@ nlu:
     - Saya butuh dukungan
     - Saya butuh bantuan
     - Tolong dukung saya"
+
+- intent: feeling sad
+  examples: |
+    - Saya merasa kesepian
+    - Saya sangat kesepian
+    - Saya merasa sedih
+    - Saya merasa sedih
+    - Saya sedih
+    - Saya merasa sangat kesepian
+    - Saya merasa kosong
+    - Saya tidak punya siapa pun"
