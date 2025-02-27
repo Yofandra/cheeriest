@@ -76,6 +76,12 @@ responses:
   - text: "Menurut Anda mengapa Anda merasa seperti ini?
   - text: "Sudah berapa lama Anda merasa seperti ini?"
 
+  utter_stressed:
+  - text: "Menurut Anda apa yang menyebabkan ini?
+  - text: "Ambil napas dalam -dalam dan kumpulkan pikiran Anda. Berjalan -jalanlah jika memungkinkan. Tetap terhidrasi
+  - text: "Beri diri Anda istirahat. Mudah diri sendiri.
+  - text: "Saya menyesal mendengarnya. Apa alasan di balik ini?"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

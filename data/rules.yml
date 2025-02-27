@@ -61,3 +61,7 @@ rules:
     - intent: feeling_sad
     - action: utter_feeling_sad
 
+- rule: feeling stressed
+  steps:
+    - intent: stressed
+    - action: utter_stressed

@@ -143,3 +143,11 @@ nlu:
     - Saya merasa sangat kesepian
     - Saya merasa kosong
     - Saya tidak punya siapa pun"
+
+- intent: stressed
+  examples: |
+    - Saya sangat stres
+    - Saya sangat stres
+    - Saya merasa mandek
+    - Saya masih merasa stres
+    - Saya sangat lelah"
