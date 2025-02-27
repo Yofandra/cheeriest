@@ -120,3 +120,15 @@ nlu:
     - saya bernama [Icha](name)
     - panggil saya [Arta](name)
     - saya [Aulia](name)
+
+- intent: need_help
+  examples: |
+    - Bisa bantu saya?
+    - Bisa tolong saya?
+    - Bisakah Anda membantu saya?
+    - tolong beri saya bantuan
+    - Bisakah Anda membantu?
+    - Apa yang bisa kamu lakukan untukku?
+    - Saya butuh dukungan
+    - Saya butuh bantuan
+    - Tolong dukung saya"

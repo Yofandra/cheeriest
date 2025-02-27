@@ -65,6 +65,11 @@ responses:
   - text: "Halo, {name}! Senang bertemu denganmu. 😊"
   - text: "Hai {name}, bagaimana kabarmu hari ini?"
 
+  utter_need_help:
+  - text: "Tentu. Beri tahu saya bagaimana saya bisa membantu Anda
+  - text: "Ceritakan masalah Anda sehingga saya dapat membantu Anda
+  - text: "Ya, tentu saja. Bagaimana saya bisa membantu Anda?"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

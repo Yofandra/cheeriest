@@ -46,4 +46,13 @@ rules:
     - intent: about
     - action: utter_about
 
+- rule: inform name
+  steps:
+    - intent: inform_name
+    - action: utter_inform_name
+
+- rule: need help
+  steps:
+    - intent: need_help
+    - action: utter_need_help
 
