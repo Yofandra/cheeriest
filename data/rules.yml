@@ -11,26 +11,6 @@ rules:
     - intent: goodbye
     - action: action_bye_user
 
-- rule: ask chatbot
-  steps:
-    - intent: ask_chatbot
-    - action: utter_iamabot
-
-- rule: share feelings
-  steps:
-    - intent: share_feelings
-    - action: utter_ask_feelings
-
-- rule: ask support
-  steps:
-    - intent: need_support
-    - action: utter_offer_support
-
-- rule: ask motivation
-  steps:
-    - intent: ask_motivation
-    - action: utter_give_motivation
-
 - rule: worthless suggestion
   steps:
     - intent: feeling_worthless

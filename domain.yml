@@ -54,6 +54,10 @@ responses:
   - text: "Tidak masalah, semoga harimu menyenangkan!"
   - text: "Dengan senang hati"
 
+  utter_about:
+  - text: "Hai, aku adalah cheeriest, bot yang siap mendengarkan ceritamu. Aku disini untuk mendengarkan ceritamu."
+  - text: "Hai, aku adalah cheeriest, bot yang dirancang untuk membantu Anda. Ceritakan tentang diri Anda"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
