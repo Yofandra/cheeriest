@@ -56,3 +56,61 @@ nlu:
     - Apa yang harus saya hubungi?
     - Siapa namamu?
     - Ceritakan tentang diri Anda
+
+- intent: feeling_anxious
+  examples: |
+    - Saya sudah lama mengalami depresi dan sekarang mulai merasa cemas.
+    - Saya memiliki riwayat depresi yang panjang dan belakangan ini sering merasa cemas.
+    - Saya sudah lama berjuang dengan depresi dan sekarang kecemasan mulai muncul.
+    - Saya memiliki masalah depresi sejak lama, dan akhir-akhir ini kecemasan semakin terasa.
+    - Depresi telah menjadi bagian dari hidup saya, dan sekarang saya juga merasa cemas.
+    - Saya sudah lama merasa tertekan, dan sekarang mulai mengalami kecemasan.
+    - Depresi yang saya alami sejak dulu kini disertai dengan rasa cemas.
+    - Saya punya riwayat depresi, dan akhir-akhir ini kecemasan semakin mengganggu.
+    - Saya pernah mengalami depresi berat, dan sekarang kecemasan juga mulai muncul.
+    - Saya telah lama berjuang dengan depresi dan sekarang merasa semakin gelisah.
+    - Saya menghadapi depresi dan kecemasan yang parah dan saya hanya merasa seperti sedang mengalami banyak hal.
+    - Bagaimana cara mengatasi kecemasan dan depresi ini?
+    - Saya menderita ADHD dewasa, gangguan kecemasan, dan depresi. Apa yang akan Anda sarankan saya lakukan?
+    - Saya berjuang dengan depresi serta perubahan suasana hati yang cukup intens sepanjang bulan ini. Apa yang bisa saya lakukan?
+
+- intent: satisfaction
+  examples: |
+    - Bagaimana saya bisa merasa puas dengan hidup saya setiap hari?
+    - Apa yang bisa saya lakukan agar merasa lebih puas dari hari ke hari?
+    - Bagaimana cara mencapai kepuasan dalam kehidupan sehari-hari?
+    - Apa langkah-langkah yang bisa saya ambil untuk merasa lebih bahagia dan puas setiap hari?
+    - Bagaimana saya bisa menemukan kebahagiaan dan kepuasan dalam rutinitas harian saya?
+    - Apa yang perlu saya ubah agar bisa menikmati hidup lebih baik setiap hari?
+    - Bagaimana cara membangun kebiasaan yang membuat saya merasa lebih puas setiap hari?
+    - Apa yang harus saya lakukan agar lebih bersyukur dan puas dengan hidup saya?
+    - Bagaimana saya bisa mencapai ketenangan dan kepuasan dalam hidup saya?
+    - Apa yang bisa membantu saya menemukan makna dan kebahagiaan dalam setiap hari?
+
+- intent: feeling_anxious
+  examples: |
+    - Saya merasa sangat tertekan, dan saya mencoba berhenti. Namun, ketika sesuatu mengingatkan saya pada kesedihan, saya ingin melukai diri sendiri lagi.
+    - Saya sudah berusaha menahan diri, tetapi ketika sesuatu menyakitkan hati saya, dorongan untuk melukai diri sendiri muncul kembali.
+    - Setiap kali saya melihat sesuatu yang menyedihkan, saya merasa tidak bisa menahan keinginan untuk menyakiti diri sendiri.
+    - Saya mencoba berhenti melukai diri sendiri, tetapi setiap kali saya merasa hancur, keinginan itu muncul lagi.
+    - Kadang-kadang, melihat sesuatu yang menyedihkan membuat saya ingin kembali melukai diri sendiri.
+    - Saya tahu saya seharusnya berhenti, tetapi setiap kali saya merasa putus asa, saya ingin menyakiti diri sendiri lagi.
+    - Saya berusaha kuat, tetapi melihat sesuatu yang menyedihkan membuat saya ingin kembali ke kebiasaan lama.
+    - Saya pernah berhenti sebentar, tetapi rasa sakit emosional membuat saya ingin melukai diri sendiri lagi.
+    - Setiap kali saya mengalami perasaan sedih yang mendalam, dorongan untuk menyakiti diri sendiri terasa sangat kuat.
+    - Saya ingin berhenti, tetapi saya tidak bisa mengendalikan keinginan itu ketika saya merasa sangat sedih.
+    - Saya memiliki kebiasaan melukai diri sendiri, apa yang harus saya lakukan?
+    - Saat saya merasa putus asa, self-harm terasa seperti jalan keluar.
+    - Saya ingin berhenti self-harm, tetapi setiap kali emosi saya tidak stabil, saya kesulitan menahan diri.
+    - Self-harm dulu menjadi pelarian saya, dan terkadang saya masih ingin melakukannya
+
+- intent: feeling_worthless
+  examples: |
+    - Aku merasa tidak berharga.
+    - Aku merasa tidak pantas ada di sini.
+    - Aku tidak tahu bagaimana mengatasi perasaan ini.
+    - Aku terus-menerus merasa gagal dan tidak berguna.
+    - Aku tidak melakukan apa pun selain memikirkan betapa buruknya diriku.
+    - Aku ingin memperbaiki masalahku, tapi aku tidak tahu harus mulai dari mana.
+    - Aku tidak punya motivasi untuk melakukan apa pun.
+
