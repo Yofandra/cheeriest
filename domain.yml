@@ -10,6 +10,7 @@ intents:
   - ask_chatbot
   - ask_motivation
   - feeling_worthless
+  - thanks
 
 responses:
   utter_default:
@@ -47,6 +48,11 @@ responses:
 
   utter_self_harm:
   - text: "Melukai diri sendiri sering kali menjadi mekanisme koping. Ketika seseorang terbiasa menggunakan self-harm sebagai cara untuk menangani dan mengelola emosinya, maka saat menghadapi situasi sulit, wajar jika pikiran langsung kembali ke pola tersebut. Ini bisa menjadi bentuk kecanduan tersendiri. Salah satu terapi yang efektif untuk mengatasi self-harm adalah terapi perilaku dialektis (DBT). DBT berfokus pada memberikan keterampilan baru untuk menghadapi masa-masa sulit, memahami dan mengelola emosi, tetap hadir dalam momen, serta membangun hubungan yang sehat. Ini adalah salah satu intervensi paling efektif dalam menangani self-harm. Jika Anda tertarik dengan DBT, cobalah menghubungi terapis lokal di daerah Anda dan tanyakan apakah mereka menawarkan DBT atau dapat merekomendasikan program DBT yang sesuai. Terapi ini dapat memberikan dukungan yang sangat bermanfaat. Pemulihan dari self-harm memang membutuhkan kerja keras, tetapi itu benar-benar mungkin. Anda tidak sendirian dalam perjalanan ini, dan ada banyak bantuan yang tersedia untuk Anda. ❤️"
+
+  utter_thanks:
+  - text: "Sama-sama, semoga harimu menyenangkan!"
+  - text: "Tidak masalah, semoga harimu menyenangkan!"
+  - text: "Dengan senang hati"
 
 session_config:
   session_expiration_time: 60

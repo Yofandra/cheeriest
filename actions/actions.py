@@ -61,10 +61,8 @@ class ActionByeUser(Action):
             "good bye": "Good bye!!",
             "bye": "Bye!!",
             "goodbye": "Good Bye!!",
-            "makasih": "Sama-sama!!",
             "sampai jumpa": "Sampai jumpa!",
             "adios": "Adios!!",
-            "terimakasih": "Sama-sama!!",
             "wassalamualaikum": "Waalaikumsalam",
         }
 
