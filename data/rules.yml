@@ -16,10 +16,10 @@ rules:
     - intent: feeling_worthless
     - action: utter_suggestion_worthless
 
-- rule: anxious suggestion
+- rule: anxious depressed
   steps:
-    - intent: feeling_anxious
-    - action: utter_suggestion_anxious
+    - intent: anxious_depressed
+    - action: utter_anxious_depressed
 
 - rule: satisfaction suggestion
   steps:
@@ -65,3 +65,4 @@ rules:
   steps:
     - intent: stressed
     - action: utter_stressed
+

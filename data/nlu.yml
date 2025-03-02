@@ -57,7 +57,7 @@ nlu:
     - Siapa namamu?
     - Ceritakan tentang diri Anda
 
-- intent: feeling_anxious
+- intent: anxious_depressed
   examples: |
     - Saya sudah lama mengalami depresi dan sekarang mulai merasa cemas.
     - Saya memiliki riwayat depresi yang panjang dan belakangan ini sering merasa cemas.
@@ -73,6 +73,10 @@ nlu:
     - Bagaimana cara mengatasi kecemasan dan depresi ini?
     - Saya menderita ADHD dewasa, gangguan kecemasan, dan depresi. Apa yang akan Anda sarankan saya lakukan?
     - Saya berjuang dengan depresi serta perubahan suasana hati yang cukup intens sepanjang bulan ini. Apa yang bisa saya lakukan?
+    - Saya tidak tahan lagi
+    - Saya sangat tertekan
+    - Saya pikir saya depresi.
+    - Saya mengalami depresi"
 
 - intent: satisfaction
   examples: |
@@ -87,7 +91,7 @@ nlu:
     - Bagaimana saya bisa mencapai ketenangan dan kepuasan dalam hidup saya?
     - Apa yang bisa membantu saya menemukan makna dan kebahagiaan dalam setiap hari?
 
-- intent: feeling_anxious
+- intent: self_harm
   examples: |
     - Saya merasa sangat tertekan, dan saya mencoba berhenti. Namun, ketika sesuatu mengingatkan saya pada kesedihan, saya ingin melukai diri sendiri lagi.
     - Saya sudah berusaha menahan diri, tetapi ketika sesuatu menyakitkan hati saya, dorongan untuk melukai diri sendiri muncul kembali.
@@ -113,6 +117,11 @@ nlu:
     - Aku tidak melakukan apa pun selain memikirkan betapa buruknya diriku.
     - Aku ingin memperbaiki masalahku, tapi aku tidak tahu harus mulai dari mana.
     - Aku tidak punya motivasi untuk melakukan apa pun.
+    - Saya merasa sangat tidak berharga.
+    - Tidak ada yang menyukaiku.
+    - Saya tidak bisa melakukan apapun.
+    - Saya sangat tidak berguna
+    - Tidak ada yang masuk akal lagi
 
 - intent: inform_name
   examples: |
@@ -133,7 +142,7 @@ nlu:
     - Saya butuh bantuan
     - Tolong dukung saya"
 
-- intent: feeling sad
+- intent: feeling_sad
   examples: |
     - Saya merasa kesepian
     - Saya sangat kesepian
@@ -151,3 +160,12 @@ nlu:
     - Saya merasa mandek
     - Saya masih merasa stres
     - Saya sangat lelah"
+
+- intent: feeling_happy
+    - Saya merasa hebat hari ini.
+    - Saya senang.
+    - Saya merasa bahagia.
+    - Aku baik-baik saja.
+    - ceria
+    - Saya baik-baik saja
+    - Saya merasa baik -baik saja"

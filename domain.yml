@@ -11,6 +11,15 @@ intents:
   - ask_motivation
   - feeling_worthless
   - thanks
+  - about
+  - inform_name
+  - need_help
+  - feeling_sad
+  - stressed
+  - anxious_depressed
+  - satisfaction
+  - self_harm
+  - feeling_happy
 
 responses:
   utter_default:
@@ -24,6 +33,9 @@ responses:
 
   utter_happy:
   - text: "Bagusss!!, tetep bahagia terus yaa"
+  - text: "Itu geat untuk didengar. Saya senang Anda merasa seperti ini."
+  - text: "Oh, begitu. Itu bagus."
+  - text: "Apakah sesuatu terjadi yang membuat Anda merasa seperti ini?"
 
   utter_iamabot:
   - text: "Hai, aku adalah bot dan namaku cheeriest. Aku disini untuk mendengarkan ceritamu."
@@ -39,8 +51,11 @@ responses:
 
   utter_suggestion_worthless:
   - text: "Jika orang-orang di sekitar Anda menganggap Anda tidak berharga, mungkin saatnya mencari lingkungan baru. Konteks sosial sangat berpengaruh pada harga diri.Daripada terus berada di tempat yang merendahkan Anda, temukan orang-orang yang menghargai Anda. Tidak ada manusia yang tidak berharga. Perasaan buruk bisa menjadi sinyal untuk keluar dari situasi yang merugikan. Gunakan sebagai dorongan untuk mencari lingkungan yang lebih positif."
-  
-  utter_suggestion_anxious:
+  - text: "Wajar untuk merasakan hal ini. Ceritakan lebih banyak. Apa lagi yang ada di pikiran Anda?"
+  - text: "Mari kita bahas lebih lanjut mengapa Anda merasa seperti ini."
+  - text: "Pertama -tama saya ingin memberi tahu Anda bahwa Anda tidak sendirian dalam perasaan Anda dan selalu ada seseorang di sana untuk membantu. Anda selalu dapat mengubah perasaan Anda dan mengubah cara berpikir Anda dengan terbuka untuk mencoba berubah."
+
+  utter_anxious_depressed:
   - text: "Saya memahami bahwa mengalami kecemasan setelah melalui depresi dalam waktu yang lama bisa sangat melelahkan. Anda tidak sendirian dalam hal ini, dan ada cara untuk mengatasinya. Mungkin Anda bisa mencoba beberapa teknik seperti pernapasan dalam, menulis jurnal, meditasi, atau melakukan aktivitas yang membuat Anda merasa lebih baik. Namun, jika kecemasan dan depresi ini mulai mengganggu kehidupan sehari-hari atau terasa semakin berat, berbicara dengan seorang profesional bisa menjadi langkah yang baik."
 
   utter_suggestion_satisfaction:
