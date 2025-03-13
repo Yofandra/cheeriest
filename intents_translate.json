@@ -1219,7 +1219,7 @@
             ]
         },
         {
-            "tag": "fact-5",
+            "tag": "fact-4",
             "patterns": [
                 "How do i know if i have Depression?",
                 "Am i depressed?",
@@ -1240,7 +1240,7 @@
             ]
         },
         {
-            "tag": "fact-6",
+            "tag": "fact-5",
             "patterns": [
                 "What is a therapist?",
                 "What does a therapist do?"
@@ -1257,7 +1257,7 @@
             ]
         },
         {
-            "tag": "fact-7",
+            "tag": "fact-6",
             "patterns": [
                 "What is therapy?",
                 "Do i need therapy?",
@@ -1278,52 +1278,7 @@
             ]
         },
         {
-            "tag": "fact-8",
-            "patterns": [
-                "What does it mean to have a mental illness?"
-            ],
-            "responses": [
-                "Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life. Mental illnesses fall along a continuum of severity: some are fairly mild and only interfere with some aspects of life, such as certain phobias. On the other end of the spectrum lie serious mental illnesses, which result in major functional impairment and interference with daily life. These include such disorders as major depression, schizophrenia, and bipolar disorder, and may require that the person receives care in a hospital. It is important to know that mental illnesses are medical conditions that have nothing to do with a person's character, intelligence, or willpower. Just as diabetes is a disorder of the pancreas, mental illness is a medical condition due to the brain's biology. Similarly to how one would treat diabetes with medication and insulin, mental illness is treatable with a combination of medication and social support. These treatments are highly effective, with 70-90 percent of individuals receiving treatment experiencing a reduction in symptoms and an improved quality of life. With the proper treatment, it is very possible for a person with mental illness to be independent and successful."
-            ],
-            "patterns_translated": [
-                "Apa artinya memiliki penyakit mental?"
-            ],
-            "responses_translated": [
-                "Penyakit mental adalah kondisi kesehatan yang mengganggu pikiran, emosi, hubungan, dan fungsi sehari -hari seseorang. Mereka dikaitkan dengan kesusahan dan berkurangnya kapasitas untuk terlibat dalam kegiatan kehidupan sehari -hari yang biasa. Penyakit mental jatuh di sepanjang rangkaian keparahan: beberapa cukup ringan dan hanya mengganggu beberapa aspek kehidupan, seperti fobia tertentu. Di ujung lain spektrum terletak penyakit mental yang serius, yang mengakibatkan gangguan fungsional utama dan gangguan dengan kehidupan sehari -hari. Ini termasuk gangguan seperti depresi berat, skizofrenia, dan gangguan bipolar, dan mungkin mengharuskan orang tersebut menerima perawatan di rumah sakit. Penting untuk mengetahui bahwa penyakit mental adalah kondisi medis yang tidak ada hubungannya dengan karakter, kecerdasan, atau kemauan seseorang. Sama seperti diabetes adalah kelainan pankreas, penyakit mental adalah kondisi medis karena biologi otak. Demikian pula dengan bagaimana seseorang akan mengobati diabetes dengan obat -obatan dan insulin, penyakit mental dapat diobati dengan kombinasi obat dan dukungan sosial. Perawatan ini sangat efektif, dengan 70-90 persen orang yang menerima pengobatan mengalami pengurangan gejala dan peningkatan kualitas hidup. Dengan perawatan yang tepat, sangat mungkin bagi orang dengan penyakit mental untuk mandiri dan sukses."
-            ]
-        },
-        {
-            "tag": "fact-9",
-            "patterns": [
-                "Who does mental illness affect?"
-            ],
-            "responses": [
-                "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their childÃ¢â‚¬â„¢s mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
-            ],
-            "patterns_translated": [
-                "Siapa yang mempengaruhi penyakit mental?"
-            ],
-            "responses_translated": [
-                "Diperkirakan bahwa penyakit mental mempengaruhi 1 dari 5 orang dewasa di Amerika, dan bahwa 1 dari 24 orang dewasa memiliki penyakit mental yang serius. Penyakit mental tidak membeda -bedakan; Ini dapat mempengaruhi siapa pun, terlepas dari jenis kelamin, usia, pendapatan, status sosial, etnis, agama, orientasi seksual, atau latar belakang. Meskipun penyakit mental dapat mempengaruhi siapa pun, kondisi tertentu mungkin lebih umum pada populasi yang berbeda. Misalnya, gangguan makan cenderung terjadi lebih sering pada wanita, sementara gangguan seperti defisit perhatian/gangguan hiperaktif lebih lazim pada anak -anak. Selain itu, segala usia rentan, tetapi yang muda dan yang tua sangat rentan. Penyakit mental biasanya mengejutkan individu dalam hidup mereka, dengan 75 persen kondisi kesehatan mental berkembang pada usia 24 tahun. Hal ini membuat identifikasi dan pengobatan gangguan mental sangat sulit, karena kepribadian normal dan perubahan perilaku remaja dapat menutupi gejala -gejala gejala dari kondisi kesehatan mental. Orang tua dan pengasuh harus menyadari fakta ini, dan memperhatikan perubahan dalam suasana hati anak mereka, kepribadian, kebiasaan pribadi, dan penarikan sosial. Ketika ini terjadi pada anak -anak di bawah 18 tahun, mereka disebut sebagai gangguan emosional yang serius (SED)."
-            ]
-        },
-        {
-            "tag": "fact-10",
-            "patterns": [
-                "What causes mental illness?"
-            ],
-            "responses": [
-                "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their child's mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
-            ],
-            "patterns_translated": [
-                "Apa yang menyebabkan penyakit mental?"
-            ],
-            "responses_translated": [
-                "Diperkirakan bahwa penyakit mental mempengaruhi 1 dari 5 orang dewasa di Amerika, dan bahwa 1 dari 24 orang dewasa memiliki penyakit mental yang serius. Penyakit mental tidak membeda -bedakan; Ini dapat mempengaruhi siapa pun, terlepas dari jenis kelamin, usia, pendapatan, status sosial, etnis, agama, orientasi seksual, atau latar belakang. Meskipun penyakit mental dapat mempengaruhi siapa pun, kondisi tertentu mungkin lebih umum pada populasi yang berbeda. Misalnya, gangguan makan cenderung terjadi lebih sering pada wanita, sementara gangguan seperti defisit perhatian/gangguan hiperaktif lebih lazim pada anak -anak. Selain itu, segala usia rentan, tetapi yang muda dan yang tua sangat rentan. Penyakit mental biasanya mengejutkan individu dalam hidup mereka, dengan 75 persen kondisi kesehatan mental berkembang pada usia 24 tahun. Hal ini membuat identifikasi dan pengobatan gangguan mental sangat sulit, karena kepribadian normal dan perubahan perilaku remaja dapat menutupi gejala -gejala gejala dari kondisi kesehatan mental. Orang tua dan pengasuh harus menyadari fakta ini, dan memperhatikan perubahan suasana hati, kepribadian, kebiasaan pribadi, dan penarikan sosial anak mereka. Ketika ini terjadi pada anak -anak di bawah 18 tahun, mereka disebut sebagai gangguan emosional yang serius (SED)."
-            ]
-        },
-        {
-            "tag": "fact-11",
+            "tag": "fact-7",
             "patterns": [
                 "What are some of the warning signs of mental illness?"
             ],
@@ -1338,7 +1293,7 @@
             ]
         },
         {
-            "tag": "fact-12",
+            "tag": "fact-8",
             "patterns": [
                 "Can people with mental illness recover?"
             ],
@@ -1353,7 +1308,7 @@
             ]
         },
         {
-            "tag": "fact-13",
+            "tag": "fact-9",
             "patterns": [
                 "What should I do if I know someone who appears to have the symptoms of a mental disorder?"
             ],
@@ -1368,7 +1323,7 @@
             ]
         },
         {
-            "tag": "fact-14",
+            "tag": "fact-10",
             "patterns": [
                 "How can I find a mental health professional for myself or my child?"
             ],
@@ -1383,22 +1338,7 @@
             ]
         },
         {
-            "tag": "fact-15",
-            "patterns": [
-                "What treatment options are available?"
-            ],
-            "responses": [
-                "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."
-            ],
-            "patterns_translated": [
-                "Pilihan perawatan apa yang tersedia?"
-            ],
-            "responses_translated": [
-                "Sama seperti ada berbagai jenis obat untuk penyakit fisik, pilihan perawatan yang berbeda tersedia untuk individu dengan penyakit mental. Perawatan bekerja secara berbeda untuk orang yang berbeda. Penting untuk menemukan apa yang paling cocok untuk Anda atau anak Anda."
-            ]
-        },
-        {
-            "tag": "fact-16",
+            "tag": "fact-11",
             "patterns": [
                 "If I become involved in treatment, what do I need to know?"
             ],
@@ -1413,37 +1353,7 @@
             ]
         },
         {
-            "tag": "fact-17",
-            "patterns": [
-                "What is the difference between mental health professionals?"
-            ],
-            "responses": [
-                "There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research."
-            ],
-            "patterns_translated": [
-                "Apa perbedaan antara profesional kesehatan mental?"
-            ],
-            "responses_translated": [
-                "Ada banyak jenis profesional kesehatan mental. Variasi penyedia dan layanan mereka mungkin membingungkan. Masing -masing memiliki berbagai tingkat pendidikan, pelatihan, dan mungkin memiliki bidang keahlian yang berbeda. Menemukan profesional yang paling sesuai dengan kebutuhan Anda mungkin memerlukan penelitian."
-            ]
-        },
-        {
-            "tag": "fact-18",
-            "patterns": [
-                "How can I find a mental health professional right for my child or myself?"
-            ],
-            "responses": [
-                "Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."
-            ],
-            "patterns_translated": [
-                "Bagaimana saya bisa menemukan profesional kesehatan mental untuk anak saya atau diri saya sendiri?"
-            ],
-            "responses_translated": [
-                "Merasa nyaman dengan profesional yang Anda atau anak Anda bekerja sama sangat penting untuk keberhasilan perawatan Anda. Menemukan profesional yang paling sesuai dengan kebutuhan Anda mungkin memerlukan penelitian."
-            ]
-        },
-        {
-            "tag": "fact-19",
+            "tag": "fact-12",
             "patterns": [
                 "Where else can I get help?"
             ],
@@ -1458,97 +1368,7 @@
             ]
         },
         {
-            "tag": "fact-20",
-            "patterns": [
-                "What should I know before starting a new medication?"
-            ],
-            "responses": [
-                "The best source of information regarding medications is the physician prescribing them. He or she should be able to answer questions such as:    \n1. What is the medication supposed to do? \n2. When should it begin to take effect, and how will I know when it is effective? \n3. How is the medication taken and for how long? What food, drinks, other medicines, and activities should be avoided while taking this medication? \n4. What are the side effects and what should be done if they occur? \n5. What do I do if a dose is missed? \n6. Is there any written information available about this medication? \n7. Are there other medications that might be appropriate? \n8. If so, why do you prefer the one you have chosen? \n9. How do you monitor medications and what symptoms indicate that they should be raised, lowered, or changed? \n10. All medications should be taken as directed. Most medications for mental illnesses do not work when taken irregularly, and extra doses can cause severe, sometimes dangerous side effects. Many psychiatric medications begin to have a beneficial effect only after they have been taken for several weeks."
-            ],
-            "patterns_translated": [
-                "Apa yang harus saya ketahui sebelum memulai obat baru?"
-            ],
-            "responses_translated": [
-                "Sumber informasi terbaik mengenai obat -obatan adalah dokter yang meresepkannya. Dia harus bisa menjawab pertanyaan seperti:    \n1. Apa yang seharusnya dilakukan obat? \n2. Kapan harus mulai berlaku, dan bagaimana saya tahu kapan itu efektif? \n3. Bagaimana obat diminum dan untuk berapa lama? Makanan, minuman, obat -obatan lain, dan kegiatan apa yang harus dihindari saat minum obat ini? \n4. Apa efek sampingnya dan apa yang harus dilakukan jika terjadi? \n5. Apa yang harus saya lakukan jika dosis terlewatkan? \n6. Apakah ada informasi tertulis yang tersedia tentang obat ini? \n7. Apakah ada obat lain yang mungkin sesuai? \n8. Jika demikian, mengapa Anda lebih suka yang Anda pilih? \n9. Bagaimana Anda memantau obat dan gejala apa yang menunjukkan bahwa mereka harus dinaikkan, diturunkan, atau diubah? \n10. Semua obat harus diminum sesuai petunjuk. Sebagian besar obat untuk penyakit mental tidak bekerja ketika diminum secara tidak teratur, dan dosis ekstra dapat menyebabkan efek samping yang parah dan terkadang berbahaya. Banyak obat psikiatris mulai memiliki efek menguntungkan hanya setelah mereka diambil selama beberapa minggu."
-            ]
-        },
-        {
-            "tag": "fact-21",
-            "patterns": [
-                "Where can I go to find therapy?"
-            ],
-            "responses": [
-                "Different kinds of therapy are more effective based on the nature of the mental health condition and/or symptoms and the person who has them (for example, children will benefit from a therapist who specializes in childrenâ€™s mental health). However, there are several different types of treatment and therapy that can help."
-            ],
-            "patterns_translated": [
-                "Dimana saya bisa pergi untuk menemukan terapi?"
-            ],
-            "responses_translated": [
-                "Berbagai jenis terapi lebih efektif berdasarkan sifat kondisi kesehatan mental dan/atau gejala dan orang yang memilikinya (misalnya, anak -anak akan mendapat manfaat dari terapis yang berspesialisasi dalam kesehatan mental anak -anak). Namun, ada beberapa jenis perawatan dan terapi yang dapat membantu."
-            ]
-        },
-        {
-            "tag": "fact-22",
-            "patterns": [
-                "Where can I learn about types of mental health treatment?"
-            ],
-            "responses": [
-                "Mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including Complementary & Alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed by the person with the mental health conditions and his or her team."
-            ],
-            "patterns_translated": [
-                "Di mana saya dapat belajar tentang jenis perawatan kesehatan mental?"
-            ],
-            "responses_translated": [
-                "Kondisi kesehatan mental sering diobati dengan obat, terapi atau kombinasi keduanya. Namun, ada banyak jenis perawatan yang tersedia, termasuk perawatan komplementer & alternatif, rencana swadaya, dan dukungan sebaya. Perawatan sangat pribadi dan harus dibahas oleh orang dengan kondisi kesehatan mental dan timnya."
-            ]
-        },
-        {
-            "tag": "fact-23",
-            "patterns": [
-                "What are the different types of mental health professionals?"
-            ],
-            "responses": [
-                "There are many types of mental health professionals. Finding the right one for you may require some research."
-            ],
-            "patterns_translated": [
-                "Apa saja berbagai jenis profesional kesehatan mental?"
-            ],
-            "responses_translated": [
-                "Ada banyak jenis profesional kesehatan mental. Menemukan yang tepat untuk Anda mungkin memerlukan penelitian."
-            ]
-        },
-        {
-            "tag": "fact-24",
-            "patterns": [
-                "Where can I go to find a support group?"
-            ],
-            "responses": [
-                "Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional."
-            ],
-            "patterns_translated": [
-                "Di mana saya bisa pergi mencari grup pendukung?"
-            ],
-            "responses_translated": [
-                "Banyak orang menemukan peer mendukung alat yang bermanfaat yang dapat membantu pemulihan mereka. Ada berbagai organisasi yang menawarkan kelompok pendukung untuk konsumen, anggota keluarga dan teman -teman mereka. Beberapa kelompok pendukung dipimpin rekan, sementara yang lain mungkin dipimpin oleh profesional kesehatan mental."
-            ]
-        },
-        {
-            "tag": "fact-25",
-            "patterns": [
-                "Can you prevent mental health problems?"
-            ],
-            "responses": [
-                "We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious."
-            ],
-            "patterns_translated": [
-                "Bisakah Anda mencegah masalah kesehatan mental?"
-            ],
-            "responses_translated": [
-                "Kita semua dapat menderita tantangan kesehatan mental, tetapi mengembangkan kesejahteraan, ketahanan, dan mencari bantuan kita sejak dini dapat membantu mencegah tantangan menjadi serius."
-            ]
-        },
-        {
-            "tag": "fact-26",
+            "tag": "fact-13",
             "patterns": [
                 "Are there cures for mental health problems?",
                 "is there any cure for mental health problems?"
@@ -1565,7 +1385,7 @@
             ]
         },
         {
-            "tag": "fact-27",
+            "tag": "fact-14",
             "patterns": [
                 "What causes mental health problems?"
             ],

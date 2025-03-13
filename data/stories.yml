@@ -16,3 +16,10 @@ stories:
     - action: utter_give_motivation
     - intent: goodbye
     - action: action_bye_user
+
+# - story: meditation advice
+#   steps:
+#     - intent: user_agree
+#     - action: action_user_agree
+#     - intent: meditation
+#     - action: utter_iamabot

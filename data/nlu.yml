@@ -57,7 +57,7 @@ nlu:
     - Siapa namamu?
     - Ceritakan tentang diri Anda
 
-- intent: anxious_depressed
+- intent: anxious
   examples: |
     - Saya sudah lama mengalami depresi dan sekarang mulai merasa cemas.
     - Saya memiliki riwayat depresi yang panjang dan belakangan ini sering merasa cemas.
@@ -73,10 +73,6 @@ nlu:
     - Bagaimana cara mengatasi kecemasan dan depresi ini?
     - Saya menderita ADHD dewasa, gangguan kecemasan, dan depresi. Apa yang akan Anda sarankan saya lakukan?
     - Saya berjuang dengan depresi serta perubahan suasana hati yang cukup intens sepanjang bulan ini. Apa yang bisa saya lakukan?
-    - Saya tidak tahan lagi
-    - Saya sangat tertekan
-    - Saya pikir saya depresi.
-    - Saya mengalami depresi"
 
 - intent: satisfaction
   examples: |
@@ -140,7 +136,7 @@ nlu:
     - Apa yang bisa kamu lakukan untukku?
     - Saya butuh dukungan
     - Saya butuh bantuan
-    - Tolong dukung saya"
+    - Tolong dukung saya
 
 - intent: feeling_sad
   examples: |
@@ -151,7 +147,7 @@ nlu:
     - Saya sedih
     - Saya merasa sangat kesepian
     - Saya merasa kosong
-    - Saya tidak punya siapa pun"
+    - Saya tidak punya siapa pun
 
 - intent: stressed
   examples: |
@@ -159,13 +155,246 @@ nlu:
     - Saya sangat stres
     - Saya merasa mandek
     - Saya masih merasa stres
-    - Saya sangat lelah"
+    - Saya sangat lelah
 
 - intent: feeling_happy
+  examples: |
     - Saya merasa hebat hari ini.
     - Saya senang.
     - Saya merasa bahagia.
     - Aku baik-baik saja.
     - ceria
     - Saya baik-baik saja
-    - Saya merasa baik -baik saja"
+    - Saya merasa baik -baik saja
+
+- intent: depressed
+  examples: |
+    - Saya tidak tahan lagi
+    - Saya sangat tertekan
+    - Saya pikir saya depresi.
+    - Saya mengalami depresi
+
+- intent: not_talking
+  examples: |
+    - Saya tidak ingin membicarakannya.
+    - Tidak hanya menjauh.
+    - Saya tidak bisa membuat diri saya terbuka.
+    - Diam saja
+
+- intent: sleep_problems
+  examples: |
+    - Saya mengalami insominia
+    - Saya menderita insomnia
+    - Saya tidak bisa tidur.
+    - Saya belum tidur untuk hari -hari terakhir.
+    - Sepertinya saya tidak bisa tidur.
+    - Saya belum tidur nyenyak selama beberapa hari terakhir.
+
+- intent: scared
+  examples: |
+    - Saya takut
+    - Kedengarannya mengerikan. Apa yang harus saya lakukan?
+    - Tidak, saya tidak ingin merasakan hal ini
+    - Saya takut untuk diri saya sendiri
+
+- intent: lost_someone
+  examples: |
+    - Ibuku meninggal
+    - Saudaraku meninggal
+    - Ayah saya meninggal
+    - Adikku meninggal
+    - Seseorang di keluarga saya meninggal
+    - Teman saya meninggal
+
+- intent: understanding
+  examples: |
+    - Anda tidak mengerti saya.
+    - Anda hanya beberapa robot. Bagaimana kamu tahu?
+    - Anda tidak mungkin tahu apa yang saya alami
+    - Anda tidak berguna
+    - Anda tidak dapat membantu saya
+    - Tidak ada yang mengerti saya.
+
+- intent: done
+  examples: |
+    - Itu saja.
+    - Saya tidak punya apa -apa lagi untuk dikatakan
+    - Tidak ada yang lain
+    - Hanya itu yang harus saya katakan
+    - Tidak, itu saja
+
+- intent: suicide
+  examples: |
+    - Saya ingin bunuh diri
+    - Saya sudah berpikir untuk bunuh diri.
+    - Saya ingin mati
+    - Saya akan bunuh diri
+
+- intent: hate_bot
+  examples: |
+    - Aku membencimu
+    - Aku tidak menyukaimu
+    - Saya tidak mempercayai Anda
+
+- intent: hate_me
+  examples: |
+    - Kamu membenciku
+    - Aku tahu kamu membenciku
+    - Anda tidak menyukai saya
+
+- intent: jokes
+  examples: |
+    - Ceritakan lelucon
+    - Berikan saya sebuah jokes
+    - Ceritakan saya sebuah jokes
+    - Berikan saya jokes lucu
+
+- intent: repeat
+  examples: |
+    - Anda sudah memberitahuku itu
+    - Anda sudah menyebutkan itu
+    - Mengapa Anda mengulangi diri sendiri?
+
+- intent: wrong
+  examples: |
+    - Apa yang kamu katakan?
+    - Itu tidak masuk akal
+    - Respons yang salah
+    - Jawaban yang salah
+
+- intent: stupid
+  examples: |
+    - Apakah kamu bodoh?
+    - Anda gila
+    - Kamu bodoh
+    - Apakah kamu bodoh?
+
+- intent: location
+  examples: |
+    - Kamu ada di mana?
+    - Kamu tinggal di mana?
+    - Apa lokasi Anda?
+    
+- intent: something_else
+  examples: |
+    - Saya ingin membicarakan hal lain
+    - Mari kita bicara tentang hal lain.
+    - Bisakah kita tidak membicarakan hal ini?
+    - Saya tidak ingin membicarakan hal ini.
+
+- intent: friends
+  examples: |
+    - Saya tidak punya teman
+    - Saya tidak memiliki sahabat
+    - Saya kesepian
+    - Saya gak punya teman
+
+- intent: ask
+  examples: |
+    - Bolehkah saya bertanya sesuatu?
+    - Saya punya pertanyaan
+    - Saya ingin bertanya
+    - Saya ingin bertanya sesuatu
+
+- intent: user_agree
+  examples: |
+    - ya kamu benar. Saya pantas istirahat.
+    - Ya Anda benar tentang itu
+
+- intent: meditation
+  examples: |
+    - Hmmm kedengarannya bisa bermanfaat bagi saya.
+    - Kedengarannya berguna.
+    - Saya akan mencoba meditasi.
+    - Bagaimana cara melakukan meditasi?
+
+- intent: user_advice
+  examples: |
+    - Saya pikir saya perlu saran.
+    - Saya membutuhkan saran Anda.
+    - Saya ingin beberapa nasihat.
+    - Saya butuh nasihat.
+    - Saya butuh nasihat tentang sesuatu.
+
+- intent: fact_1
+  examples: |
+    - Ceritakan tentang kesehatan mental
+    - Berikan saya pengertian tentang kesehatan mental
+    - Apa itu kesehatan mental?
+    - Apa yang dimaksud dengan kesehatan mental?
+
+- intent: fact_2
+  examples: |
+    - Mengapa kesehatan mental penting?
+    - Apa pentingnya kesehatan mental?
+    - Mengapa kita harus peduli tentang kesehatan mental?
+    - Mengapa kesehatan mental itu penting?
+
+- intent: fact_3
+  examples: |
+    - Apa itu depresi?
+    - Apa yang dimaksud dengan depresi?
+    - Apa itu depresi?
+
+- intent: fact_4
+  examples: |
+    - Bagaimana saya tahu jika saya mengalami depresi?
+    - Apakah saya depresi?
+    - Apakah saya menderita depresi?
+    - Apakah saya sakit mental?
+
+- intent: fact_5
+  examples: |
+    - Apa itu terapis?
+    - Apa yang dilakukan terapis?
+
+- intent: fact_6
+  examples: |
+    - Apa itu terapi?
+    - Apakah saya membutuhkan terapi?
+    - Untuk siapa terapi?
+
+- intent: fact_7
+  examples: |
+    - Apa saja tanda-tanda peringatan penyakit mental?
+    - Apa saja tanda-tanda penyakit mental?
+
+- intent: fact_8
+  examples: |
+    - Bisakah orang dengan penyakit mental pulih?
+    - Apakah penyakit mental bisa disembuhkan?
+    - Apakah penyakit mental bisa diobati?
+
+- intent: fact_9
+  examples: |
+    - Apa yang harus saya lakukan jika saya mengenal seseorang yang tampaknya memiliki gejala gangguan mental?
+    - Bagaimana saya bisa membantu seseorang yang tampaknya memiliki gangguan mental?
+    - Apa yang harus saya lakukan jika saya melihat seseorang yang tampaknya memiliki gangguan mental?
+
+- intent: fact_10
+  examples: |
+    - Bagaimana saya bisa menemukan profesional kesehatan mental untuk diri saya sendiri atau anak saya?
+    - Bagaimana saya bisa menemukan profesional kesehatan mental?
+    - Bagaimana saya bisa menemukan terapis?
+
+- intent: fact_11
+  examples: |
+    - Jika saya terlibat dalam perawatan, apa yang perlu saya ketahui?
+    - Apa yang harus saya ketahui tentang perawatan kesehatan mental?
+
+- intent: fact_12
+  examples: |
+    - Di mana lagi saya bisa mendapatkan bantuan?
+    - Di mana saya bisa mendapatkan bantuan?
+    - Di mana saya bisa mendapatkan bantuan untuk kesehatan mental?
+
+- intent: fact_13
+  examples: |
+    - Apakah ada obat untuk masalah kesehatan mental?,
+    - Apakah ada obat untuk penyakit mental?
+    - Apakah ada obat untuk depresi?
+
+- intent: fact_14
+  examples: |
+    - Apa yang menyebabkan masalah kesehatan mental?
+    - Apa yang menyebabkan penyakit mental?
