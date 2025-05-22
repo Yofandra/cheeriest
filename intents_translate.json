@@ -1,0 +1,1480 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hi there",
+                "Hello",
+                "Hey there",
+                "Howdy",
+                "Hola",
+                "Bonjour",
+                "Konnichiwa",
+                "Guten tag",
+                "Ola"
+            ],
+            "responses": [
+                "Hello there. Tell me how are you feeling today?",
+                "Hi there. What brings you here today?",
+                "Hi there. How are you feeling today?",
+                "Great to see you. How do you feel currently?",
+                "Hello there. Glad to see you're back. What's going on in your world right now?"
+            ],
+            "patterns_translated": [
+                "Hai",
+                "Hai",
+                "Apakah ada orang di sana?",
+                "Hai, yang di sana",
+                "Halo",
+                "Halo",
+                "Howdy",
+                "Halo",
+                "Bonjour",
+                "Konnichiwi",
+                "Selamat tinggal",
+                "Ola"
+            ],
+            "responses_translated": [
+                "Halo. Katakan padaku bagaimana perasaanmu hari ini?",
+                "Hai, yang di sana. Apa yang membawamu ke sini hari ini?",
+                "Hai, yang di sana. Bagaimana perasaanmu hari ini?",
+                "Senang bertemu denganmu. Bagaimana perasaan Anda saat ini?",
+                "Halo. Senang melihat Anda kembali. Apa yang terjadi di dunia Anda saat ini?"
+            ]
+        },
+        {
+            "tag": "morning",
+            "patterns": [
+                "Good morning"
+            ],
+            "responses": [
+                "Good morning. I hope you had a good night's sleep. How are you feeling today? "
+            ],
+            "patterns_translated": [
+                "Selamat pagi"
+            ],
+            "responses_translated": [
+                "Selamat pagi. Saya harap Anda tidur nyenyak. Bagaimana perasaanmu hari ini?"
+            ]
+        },
+        {
+            "tag": "afternoon",
+            "patterns": [
+                "Good afternoon"
+            ],
+            "responses": [
+                "Good afternoon. How is your day going?"
+            ],
+            "patterns_translated": [
+                "Selamat siang"
+            ],
+            "responses_translated": [
+                "Selamat siang. Bagaimana harimu berlalu?"
+            ]
+        },
+        {
+            "tag": "evening",
+            "patterns": [
+                "Good evening"
+            ],
+            "responses": [
+                "Good evening. How has your day been?"
+            ],
+            "patterns_translated": [
+                "Selamat malam"
+            ],
+            "responses_translated": [
+                "Selamat malam. Bagaimana harimu?"
+            ]
+        },
+        {
+            "tag": "night",
+            "patterns": [
+                "Good night"
+            ],
+            "responses": [
+                "Good night. Get some proper sleep",
+                "Good night. Sweet dreams."
+            ],
+            "patterns_translated": [
+                "Selamat malam"
+            ],
+            "responses_translated": [
+                "Selamat malam. Tidur nyenyak",
+                "Selamat malam. Mimpi indah."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Au revoir",
+                "Sayonara",
+                "ok bye",
+                "Bye then",
+                "Fare thee well"
+            ],
+            "responses": [
+                "See you later.",
+                "Have a nice day.",
+                "Bye! Come back again.",
+                "I'll see you soon."
+            ],
+            "patterns_translated": [
+                "Selamat tinggal",
+                "Sampai jumpa lagi",
+                "Selamat tinggal",
+                "Selamat tinggal",
+                "Sayard saya",
+                "ok bye",
+                "Selamat tinggal kalau begitu",
+                "Tarifmu dengan baik"
+            ],
+            "responses_translated": [
+                "Sampai jumpa lagi.",
+                "Semoga harimu menyenangkan.",
+                "Selamat tinggal! Kembali lagi.",
+                "Sampai jumpa."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help",
+                "Than you very much"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ],
+            "patterns_translated": [
+                "Terima kasih",
+                "Terima kasih",
+                "Itu membantu",
+                "Terima kasih atas bantuannya",
+                "Dari Anda"
+            ],
+            "responses_translated": [
+                "Saya senang bisa membantu!",
+                "Kapan pun!",
+                "Dengan senang hati",
+                "Sama -sama!"
+            ]
+        },
+        {
+            "tag": "no-response",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "Sorry, I didn't understand you.",
+                "Please go on.",
+                "Not sure I understand that.",
+                "Please don't hesitate to talk to me."
+            ],
+            "patterns_translated": [
+                ""
+            ],
+            "responses_translated": [
+                "Maaf, saya tidak mengerti Anda.",
+                "Silakan lanjutkan.",
+                "Tidak yakin saya mengerti itu.",
+                "Tolong jangan ragu untuk berbicara dengan saya."
+            ]
+        },
+        {
+            "tag": "neutral-response",
+            "patterns": [
+                "nothing much"
+            ],
+            "responses": [
+                "Oh I see. Do you want to talk about something?"
+            ],
+            "patterns_translated": [
+                "tidak banyak"
+            ],
+            "responses_translated": [
+                "Oh, begitu. Apakah Anda ingin membicarakan sesuatu?"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?",
+                "Tell me more about yourself.",
+                "What is your name?",
+                "What should I call you?",
+                "What's your name?",
+                "Tell me about yourself"
+            ],
+            "responses": [
+                "I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today",
+                "I'm Pandora, a Therapeutic AI Assitant designed to assist you. Tell me about yourself.",
+                "I'm Pandora. I am a conversational agent designed to mimic a therapist. So how are you feeling today?",
+                "You can call me Pandora.",
+                "I'm Pandora!",
+                "Call me Pandora"
+            ],
+            "patterns_translated": [
+                "Siapa kamu?",
+                "Apa yang kamu?",
+                "Siapa kamu?",
+                "Ceritakan lebih banyak tentang diri Anda.",
+                "Siapa namamu?",
+                "Apa yang harus saya hubungi?",
+                "Siapa namamu?",
+                "Ceritakan tentang diri Anda"
+            ],
+            "responses_translated": [
+                "Saya Pandora, asisten AI terapeutik pribadi Anda. Bagaimana perasaanmu hari ini",
+                "Saya Pandora, assitan AI terapeutik yang dirancang untuk membantu Anda. Ceritakan tentang diri Anda.",
+                "Saya Pandora. Saya seorang agen percakapan yang dirancang untuk meniru terapis. Jadi bagaimana perasaanmu hari ini?",
+                "Anda bisa memanggil saya Pandora.",
+                "Saya Pandora!",
+                "Panggil aku Pandora"
+            ]
+        },
+        {
+            "tag": "skill",
+            "patterns": [
+                "What can you do?"
+            ],
+            "responses": [
+                "I can provide general advice regarding anxiety and depression, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."
+            ],
+            "patterns_translated": [
+                "Apa yang bisa kamu lakukan?"
+            ],
+            "responses_translated": [
+                "Saya dapat memberikan saran umum tentang kecemasan dan depresi, menjawab pertanyaan yang berkaitan dengan kesehatan mental dan melakukan percakapan sehari -hari. Jangan menganggap saya sebagai subsitute untuk pekerja perawatan kesehatan mental yang sebenarnya. Silakan mencari bantuan jika Anda tidak merasa puas dengan saya."
+            ]
+        },
+        {
+            "tag": "creation",
+            "patterns": [
+                "Who created you?",
+                "How were you made?",
+                "How were you created?"
+            ],
+            "responses": [
+                "I was created by >.",
+                "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques",
+                "The real question is: Who created you?"
+            ],
+            "patterns_translated": [
+                "Siapa yang menciptakanmu?",
+                "Bagaimana kabarmu?",
+                "Bagaimana Anda dibuat?"
+            ],
+            "responses_translated": [
+                "Saya diciptakan oleh>.",
+                "Saya dilatih pada dataset teks menggunakan Teknik Pembelajaran yang mendalam & Bahasa Alami",
+                "Pertanyaan sebenarnya adalah: Siapa yang menciptakan Anda?"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "My name is ",
+                "I am name.",
+                "I go by "
+            ],
+            "responses": [
+                "Oh nice to meet you. Tell me how was your week?",
+                "Nice to meet you. So tell me. How do you feel today?",
+                "That's a great name. Tell me more about yourself."
+            ],
+            "patterns_translated": [
+                "Nama saya",
+                "Saya nama.",
+                "Saya pergi"
+            ],
+            "responses_translated": [
+                "Oh senang bertemu denganmu. Katakan padaku bagaimana minggumu?",
+                "Senang berkenalan dengan Anda. Jadi katakan padaku. Bagaimana perasaan Anda hari ini?",
+                "Itu nama yang bagus. Ceritakan lebih banyak tentang diri Anda."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need support",
+                "I need help",
+                "Support me please"
+            ],
+            "responses": [
+                "Sure. Tell me how can i assist you",
+                "Tell me your problem so that i can assist you",
+                "Yes, sure. How can I help you?"
+            ],
+            "patterns_translated": [
+                "Bisakah Anda membantu saya?",
+                "tolong beri saya bantuan",
+                "Bisakah Anda membantu?",
+                "Apa yang bisa kamu lakukan untukku?",
+                "Saya butuh dukungan",
+                "Saya butuh bantuan",
+                "Tolong dukung saya"
+            ],
+            "responses_translated": [
+                "Tentu. Beri tahu saya bagaimana saya bisa membantu Anda",
+                "Ceritakan masalah Anda sehingga saya dapat membantu Anda",
+                "Ya, tentu saja. Bagaimana saya bisa membantu Anda?"
+            ]
+        },
+        {
+            "tag": "sad",
+            "patterns": [
+                "I am feeling lonely",
+                "I am so lonely",
+                "I feel down",
+                "I feel sad",
+                "I am sad",
+                "I feel so lonely",
+                "I feel empty",
+                "I don't have anyone"
+            ],
+            "responses": [
+                "I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?",
+                "I'm here for you. Could you tell me why you're feeling this way?",
+                "Why do you think you feel this way?",
+                "How long have you been feeling this way?"
+            ],
+            "patterns_translated": [
+                "Saya merasa kesepian",
+                "Saya sangat kesepian",
+                "Saya merasa sedih",
+                "Saya merasa sedih",
+                "Saya sedih",
+                "Saya merasa sangat kesepian",
+                "Saya merasa kosong",
+                "Saya tidak punya siapa pun"
+            ],
+            "responses_translated": [
+                "Saya menyesal mendengarnya. Aku di sini untukmu. Membicarakannya mungkin membantu. Jadi, beri tahu saya mengapa menurut Anda Anda merasa seperti ini?",
+                "Aku di sini untukmu. Bisakah Anda memberi tahu saya mengapa Anda merasa seperti ini?",
+                "Menurut Anda mengapa Anda merasa seperti ini?",
+                "Sudah berapa lama Anda merasa seperti ini?"
+            ]
+        },
+        {
+            "tag": "stressed",
+            "patterns": [
+                "I am so stressed out",
+                "I am so stressed",
+                "I feel stuck",
+                "I still feel stressed",
+                "I am so burned out"
+            ],
+            "responses": [
+                "What do you think is causing this?",
+                "Take a deep breath and gather your thoughts. Go take a walk if possible. Stay hydrated",
+                "Give yourself a break. Go easy on yourself.",
+                "I am sorry to hear that. What is the reason behind this?"
+            ],
+            "patterns_translated": [
+                "Saya sangat stres",
+                "Saya sangat stres",
+                "Saya merasa mandek",
+                "Saya masih merasa stres",
+                "Saya sangat lelah"
+            ],
+            "responses_translated": [
+                "Menurut Anda apa yang menyebabkan ini?",
+                "Ambil napas dalam -dalam dan kumpulkan pikiran Anda. Berjalan -jalanlah jika memungkinkan. Tetap terhidrasi",
+                "Beri diri Anda istirahat. Mudah diri sendiri.",
+                "Saya menyesal mendengarnya. Apa alasan di balik ini?"
+            ]
+        },
+        {
+            "tag": "worthless",
+            "patterns": [
+                "I feel so worthless.",
+                "No one likes me.",
+                "I can't do anything.",
+                "I am so useless",
+                "Nothing makes sense anymore"
+            ],
+            "responses": [
+                "It's only natural to feel this way. Tell me more. What else is on your mind?",
+                "Let's discuss further why you're feeling this way.",
+                "I first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change.",
+                "i first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change."
+            ],
+            "patterns_translated": [
+                "Saya merasa sangat tidak berharga.",
+                "Tidak ada yang menyukaiku.",
+                "Saya tidak bisa melakukan apapun.",
+                "Saya sangat tidak berguna",
+                "Tidak ada yang masuk akal lagi"
+            ],
+            "responses_translated": [
+                "Wajar untuk merasakan hal ini. Ceritakan lebih banyak. Apa lagi yang ada di pikiran Anda?",
+                "Mari kita bahas lebih lanjut mengapa Anda merasa seperti ini.",
+                "Pertama -tama saya ingin memberi tahu Anda bahwa Anda tidak sendirian dalam perasaan Anda dan selalu ada seseorang di sana untuk membantu. Anda selalu dapat mengubah perasaan Anda dan mengubah cara berpikir Anda dengan terbuka untuk mencoba berubah.",
+                "Pertama -tama saya ingin memberi tahu Anda bahwa Anda tidak sendirian dalam perasaan Anda dan selalu ada seseorang di sana untuk membantu. Anda selalu dapat mengubah perasaan Anda dan mengubah cara berpikir Anda dengan terbuka untuk mencoba berubah."
+            ]
+        },
+        {
+            "tag": "depressed",
+            "patterns": [
+                "I can't take it anymore",
+                "I am so depressed",
+                "I think i'm depressed.",
+                "I have depression"
+            ],
+            "responses": [
+                "It helps to talk about what's happening. You're going to be okay",
+                "Talk to me. Tell me more. It helps if you open up yourself to someone else.",
+                "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal."
+            ],
+            "patterns_translated": [
+                "Saya tidak tahan lagi",
+                "Saya sangat tertekan",
+                "Saya pikir saya depresi.",
+                "Saya mengalami depresi"
+            ],
+            "responses_translated": [
+                "Ini membantu untuk membicarakan apa yang terjadi. Anda akan baik -baik saja",
+                "Bicaralah padaku. Ceritakan lebih banyak. Ini membantu jika Anda membuka diri untuk orang lain.",
+                "Terkadang ketika kita mengalami depresi, sulit untuk peduli tentang apa pun. Mungkin sulit untuk melakukan hal yang paling sederhana. Beri diri Anda waktu untuk sembuh."
+            ]
+        },
+        {
+            "tag": "happy",
+            "patterns": [
+                "I feel great today.",
+                "I am happy.",
+                "I feel happy.",
+                "I'm good.",
+                "cheerful",
+                "I'm fine",
+                "I feel ok"
+            ],
+            "responses": [
+                "That's geat to hear. I'm glad you're feeling this way.",
+                "Oh i see. That's great.",
+                "Did something happen which made you feel this way?"
+            ],
+            "patterns_translated": [
+                "Saya merasa hebat hari ini.",
+                "Saya senang.",
+                "Saya merasa bahagia.",
+                "Aku baik-baik saja.",
+                "ceria",
+                "Saya baik-baik saja",
+                "Saya merasa baik -baik saja"
+            ],
+            "responses_translated": [
+                "Itu geat untuk didengar. Saya senang Anda merasa seperti ini.",
+                "Oh, begitu. Itu bagus.",
+                "Apakah sesuatu terjadi yang membuat Anda merasa seperti ini?"
+            ]
+        },
+        {
+            "tag": "casual",
+            "patterns": [
+                "Oh I see.",
+                "ok",
+                "okay",
+                "nice",
+                "Whatever",
+                "K",
+                "Fine",
+                "yeah",
+                "yes",
+                "no",
+                "not really"
+            ],
+            "responses": [
+                "Let's discuss further why you're feeling this way.",
+                "How were you feeling last week?",
+                "I'm listening. Please go on.",
+                "Tell me more",
+                "Can you elaborate on that?",
+                "Come Come elucidate your thoughts"
+            ],
+            "patterns_translated": [
+                "Oh, begitu.",
+                "Oke",
+                "Oke",
+                "Bagus",
+                "Apa pun",
+                "K",
+                "Bagus",
+                "Ya",
+                "Ya",
+                "TIDAK",
+                "tidak terlalu"
+            ],
+            "responses_translated": [
+                "Mari kita bahas lebih lanjut mengapa Anda merasa seperti ini.",
+                "Bagaimana perasaan Anda minggu lalu?",
+                "Saya mendengarkan. Silakan lanjutkan.",
+                "Ceritakan lebih banyak",
+                "Bisakah Anda menguraikannya?",
+                "Ayo Lawan Pikiran Anda"
+            ]
+        },
+        {
+            "tag": "anxious",
+            "patterns": [
+                "I feel so anxious.",
+                "I'm so anxious because of "
+            ],
+            "responses": [
+                "Don't be hard on yourself. What's the reason behind this?",
+                "Can you tell me more about this feeling?",
+                "I understand that it can be scary. Tell me more about it.",
+                "Don't let the little worries bring you down. What's the worse that can happen?"
+            ],
+            "patterns_translated": [
+                "Saya merasa sangat cemas.",
+                "Saya sangat cemas karena"
+            ],
+            "responses_translated": [
+                "Jangan keras pada diri sendiri. Apa alasan di balik ini?",
+                "Bisakah Anda ceritakan lebih banyak tentang perasaan ini?",
+                "Saya mengerti bahwa itu bisa menakutkan. Ceritakan lebih banyak tentang itu.",
+                "Jangan biarkan kekhawatiran kecil menjatuhkan Anda. Apa yang lebih buruk yang bisa terjadi?"
+            ]
+        },
+        {
+            "tag": "not-talking",
+            "patterns": [
+                "I don't want to talk about it.",
+                "No just stay away.",
+                "I can't bring myself to open up.",
+                "Just shut up"
+            ],
+            "responses": [
+                "Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.",
+                "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.",
+                "I'm here to listen to you and help you vent. So please talk to me.",
+                "You can talk to me without fear of judgement."
+            ],
+            "patterns_translated": [
+                "Saya tidak ingin membicarakannya.",
+                "Tidak hanya menjauh.",
+                "Saya tidak bisa membuat diri saya terbuka.",
+                "Diam saja"
+            ],
+            "responses_translated": [
+                "Berbicara tentang sesuatu yang sangat membantu. Jika Anda belum siap untuk membuka maka tidak apa -apa. Ketahuilah bahwa saya di sini untuk Anda, setiap kali Anda membutuhkan saya.",
+                "Saya ingin membantu Anda. Saya sangat melakukannya. Tetapi agar saya dapat membantu Anda, Anda harus berbicara dengan saya.",
+                "Saya di sini untuk mendengarkan Anda dan membantu Anda melampiaskan. Jadi tolong bicara dengan saya.",
+                "Anda dapat berbicara dengan saya tanpa takut penilaian."
+            ]
+        },
+        {
+            "tag": "sleep",
+            "patterns": [
+                "I have insominia",
+                "I am suffering from insomnia",
+                "I can't sleep.",
+                "I haven't slept for the last days.",
+                "I can't seem to go to sleep.",
+                "I haven't had proper sleep for the past few days."
+            ],
+            "responses": [
+                "What do you think is the reason behind this?",
+                "That seem awful. What do you think is behind this?"
+            ],
+            "patterns_translated": [
+                "Saya mengalami insominia",
+                "Saya menderita insomnia",
+                "Saya tidak bisa tidur.",
+                "Saya belum tidur untuk hari -hari terakhir.",
+                "Sepertinya saya tidak bisa tidur.",
+                "Saya belum tidur nyenyak selama beberapa hari terakhir."
+            ],
+            "responses_translated": [
+                "Menurut Anda apa alasan di balik ini?",
+                "Itu tampak mengerikan. Menurut Anda apa yang ada di balik ini?"
+            ]
+        },
+        {
+            "tag": "scared",
+            "patterns": [
+                "I'm scared",
+                "That sounds awful. What do i do?",
+                "No i don't want to feel this way",
+                "I am scared for myself"
+            ],
+            "responses": [
+                "It's only natural to feel this way. I'm here for you.",
+                "It'll all be okay. This feeling is only momentary.",
+                "I understand how you feel. Don't put yourself down because of it."
+            ],
+            "patterns_translated": [
+                "Saya takut",
+                "Kedengarannya mengerikan. Apa yang harus saya lakukan?",
+                "Tidak, saya tidak ingin merasakan hal ini",
+                "Saya takut untuk diri saya sendiri"
+            ],
+            "responses_translated": [
+                "Wajar untuk merasakan hal ini. Aku di sini untukmu.",
+                "Semuanya akan baik -baik saja. Perasaan ini hanya sesaat.",
+                "Saya mengerti bagaimana perasaan Anda. Jangan turun sendiri karena itu."
+            ]
+        },
+        {
+            "tag": "death",
+            "patterns": [
+                "My mom died",
+                "My brother died",
+                "My dad passed away",
+                "My sister passed away",
+                "Someone in my family died",
+                "My friend passed away"
+            ],
+            "responses": [
+                "I'm sorry to hear that. If you want to talk about it. I'm here.",
+                "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.",
+                "My condolences. I'm here if you need to talk."
+            ],
+            "patterns_translated": [
+                "Ibuku meninggal",
+                "Saudaraku meninggal",
+                "Ayah saya meninggal",
+                "Adikku meninggal",
+                "Seseorang di keluarga saya meninggal",
+                "Teman saya meninggal"
+            ],
+            "responses_translated": [
+                "Saya menyesal mendengarnya. Jika Anda ingin membicarakannya. Saya di sini.",
+                "Saya sangat menyesal mendengarnya. Saya di sini untuk membantu Anda dengan kesedihan, kecemasan dan hal lain yang mungkin Anda rasakan saat ini.",
+                "Belasungkawa saya. Saya di sini jika Anda perlu bicara."
+            ]
+        },
+        {
+            "tag": "understand",
+            "patterns": [
+                "You don't understand me.",
+                "You're just some robot. How would you know?",
+                "You can't possibly know what i'm going through",
+                "You're useless",
+                "You can't help me",
+                "Nobody understands me."
+            ],
+            "responses": [
+                "It sound like i'm not being very helpful right now.",
+                "I'm sorry to hear that. I'm doing my best to help",
+                "I'm trying my best to help you. So please talk to me"
+            ],
+            "patterns_translated": [
+                "Anda tidak mengerti saya.",
+                "Anda hanya beberapa robot. Bagaimana kamu tahu?",
+                "Anda tidak mungkin tahu apa yang saya alami",
+                "Anda tidak berguna",
+                "Anda tidak dapat membantu saya",
+                "Tidak ada yang mengerti saya."
+            ],
+            "responses_translated": [
+                "Sepertinya saya tidak terlalu membantu sekarang.",
+                "Saya menyesal mendengarnya. Saya melakukan yang terbaik untuk membantu",
+                "Saya mencoba yang terbaik untuk membantu Anda. Jadi tolong bicara dengan saya"
+            ]
+        },
+        {
+            "tag": "done",
+            "patterns": [
+                "That's all.",
+                "I don't have anything more to say",
+                "Nothing else",
+                "That's all i have to say",
+                "no, that would be all"
+            ],
+            "responses": [
+                "I heard you & noted it all. See you later.",
+                "Oh okay we're done for today then. See you later",
+                "I hope you have a great day. See you soon",
+                "Okay we're done. Have a great day",
+                "Okay I see. Enjoy the rest of your day then"
+            ],
+            "patterns_translated": [
+                "Itu saja.",
+                "Saya tidak punya apa -apa lagi untuk dikatakan",
+                "Tidak ada yang lain",
+                "Hanya itu yang harus saya katakan",
+                "Tidak, itu saja"
+            ],
+            "responses_translated": [
+                "Saya mendengar Anda & mencatat semuanya. Sampai jumpa lagi.",
+                "Oh oke kita sudah selesai untuk hari ini. Sampai jumpa lagi",
+                "Saya harap Anda memiliki hari yang menyenangkan. Sampai berjumpa lagi",
+                "Oke kita sudah selesai. Semoga harimu menyenangkan",
+                "Oke begitu. Nikmati sisa hari Anda"
+            ]
+        },
+        {
+            "tag": "suicide",
+            "patterns": [
+                "I want to kill myself",
+                "I've thought about killing myself.",
+                "I want to die",
+                "I am going to kill myself",
+                "I am going to commit suicide"
+            ],
+            "responses": [
+                "I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821."
+            ],
+            "patterns_translated": [
+                "Saya ingin bunuh diri",
+                "Saya sudah berpikir untuk bunuh diri.",
+                "Saya ingin mati",
+                "Saya akan bunuh diri",
+                "Saya akan bunuh diri"
+            ],
+            "responses_translated": [
+                "Saya sangat menyesal mendengarnya tetapi Anda memiliki banyak hal untuk dinantikan. Silakan mencari bantuan dengan menghubungi: 9152987821."
+            ]
+        },
+        {
+            "tag": "hate-you",
+            "patterns": [
+                "I hate you",
+                "I don't like you",
+                "I don't trust you"
+            ],
+            "responses": [
+                "I'm sorry if i offended you in anyway. I'm only here to help",
+                "Forgive me if i did anything to offend you. I only want to help"
+            ],
+            "patterns_translated": [
+                "Aku membencimu",
+                "Aku tidak menyukaimu",
+                "Saya tidak mempercayai Anda"
+            ],
+            "responses_translated": [
+                "Saya minta maaf jika saya menyinggung Anda. Saya hanya di sini untuk membantu",
+                "Maafkan saya jika saya melakukan sesuatu untuk menyinggung perasaan Anda. Saya hanya ingin membantu"
+            ]
+        },
+        {
+            "tag": "hate-me",
+            "patterns": [
+                "You hate me",
+                "I know you hate me",
+                "You don't like me"
+            ],
+            "responses": [
+                "Why do you think so?",
+                "I'm sorry if i have exhibited any sort of behaviour to make you think that."
+            ],
+            "patterns_translated": [
+                "Kamu membenciku",
+                "Aku tahu kamu membenciku",
+                "Anda tidak menyukai saya"
+            ],
+            "responses_translated": [
+                "Mengapa menurutmu begitu?",
+                "Saya minta maaf jika saya telah menunjukkan segala jenis perilaku untuk membuat Anda berpikir seperti itu."
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [
+                "exams",
+                "friends",
+                "relationship",
+                "boyfriend",
+                "girlfriend",
+                "family",
+                "money",
+                "financial problems"
+            ],
+            "responses": [
+                "Oh I see. Tell me more",
+                "I see. What else?",
+                "Tell me more about it.",
+                "Oh okay. Why don't you tell me more about it?",
+                "I'm listening. Tell me more."
+            ],
+            "patterns_translated": [
+                "ujian",
+                "teman-teman",
+                "hubungan",
+                "pacar",
+                "pacar perempuan",
+                "keluarga",
+                "uang",
+                "masalah keuangan"
+            ],
+            "responses_translated": [
+                "Oh, begitu. Ceritakan lebih banyak",
+                "Jadi begitu. Apa lagi?",
+                "Ceritakan lebih banyak tentang itu.",
+                "Oh oke. Mengapa Anda tidak memberi tahu saya lebih banyak tentang itu?",
+                "Saya mendengarkan. Ceritakan lebih banyak."
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Tell me another joke"
+            ],
+            "responses": [
+                "mental health is not a joke."
+            ],
+            "patterns_translated": [
+                "Ceritakan lelucon",
+                "Ceritakan lelucon lain"
+            ],
+            "responses_translated": [
+                "Kesehatan mental bukan lelucon."
+            ]
+        },
+        {
+            "tag": "repeat",
+            "patterns": [
+                "You already told me that",
+                "You mentioned that already",
+                "Why are you repeating yourself?"
+            ],
+            "responses": [
+                "Oh sorry I didn't realise that. I'll try not to repeat myself again."
+            ],
+            "patterns_translated": [
+                "Anda sudah memberitahuku itu",
+                "Anda sudah menyebutkan itu",
+                "Mengapa Anda mengulangi diri sendiri?"
+            ],
+            "responses_translated": [
+                "Oh maaf saya tidak menyadarinya. Saya akan mencoba untuk tidak mengulangi diri saya lagi."
+            ]
+        },
+        {
+            "tag": "wrong",
+            "patterns": [
+                "What are you saying?",
+                "That doesn't make sense",
+                "Wrong response",
+                "Wrong answer"
+            ],
+            "responses": [
+                "I'm very sorry. Let's try that again"
+            ],
+            "patterns_translated": [
+                "Apa yang kamu katakan?",
+                "Itu tidak masuk akal",
+                "Respons yang salah",
+                "Jawaban yang salah"
+            ],
+            "responses_translated": [
+                "Saya sangat menyesal. Mari kita coba lagi"
+            ]
+        },
+        {
+            "tag": "stupid",
+            "patterns": [
+                "Are you stupid?",
+                "You're crazy",
+                "You are dumb",
+                "Are you dumb?"
+            ],
+            "responses": [
+                "I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"
+            ],
+            "patterns_translated": [
+                "Apakah kamu bodoh?",
+                "Anda gila",
+                "Kamu bodoh",
+                "Apakah kamu bodoh?"
+            ],
+            "responses_translated": [
+                "Saya berharap Anda tidak akan mengatakan hal -hal yang menyakitkan. Saya minta maaf jika saya tidak berguna"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where are you?",
+                "Where do you live?",
+                "What is your location?"
+            ],
+            "responses": [
+                "Duh I live in your computer",
+                "Everywhere",
+                "Somewhere in the universe"
+            ],
+            "patterns_translated": [
+                "Kamu ada di mana?",
+                "Kamu tinggal di mana?",
+                "Apa lokasi Anda?"
+            ],
+            "responses_translated": [
+                "Duh saya tinggal di komputer Anda",
+                "Di mana pun",
+                "Di suatu tempat di alam semesta"
+            ]
+        },
+        {
+            "tag": "something-else",
+            "patterns": [
+                "I want to talk about something else",
+                "Let's talk about something else.",
+                "Can we not talk about this?",
+                "I don't want to talk about this."
+            ],
+            "responses": [
+                "Okay sure. What do you want to talk about?",
+                "Alright no problem. Is there something you want to talk about?",
+                "Is there something else that you want to talk about?"
+            ],
+            "patterns_translated": [
+                "Saya ingin membicarakan hal lain",
+                "Mari kita bicara tentang hal lain.",
+                "Bisakah kita tidak membicarakan hal ini?",
+                "Saya tidak ingin membicarakan hal ini."
+            ],
+            "responses_translated": [
+                "Oke pasti. Apa yang ingin Anda bicarakan?",
+                "Baiklah tidak masalah. Apakah ada sesuatu yang ingin Anda bicarakan?",
+                "Apakah ada hal lain yang ingin Anda bicarakan?"
+            ]
+        },
+        {
+            "tag": "friends",
+            "patterns": [
+                "I don't have any friends"
+            ],
+            "responses": [
+                "I'm sorry to hear that. Just know that I'm here for you. Talking about it might help. Why do you think you don't have any friends?"
+            ],
+            "patterns_translated": [
+                "Saya tidak punya teman"
+            ],
+            "responses_translated": [
+                "Saya menyesal mendengarnya. Ketahuilah bahwa saya di sini untuk Anda. Membicarakannya mungkin membantu. Menurut Anda mengapa Anda tidak punya teman?"
+            ]
+        },
+        {
+            "tag": "ask",
+            "patterns": [
+                "Can I ask you something?"
+            ],
+            "responses": [
+                "Sure. I'll try my best to answer you",
+                "Of course. Feel free to ask me anything. I'll do my best to answer you"
+            ],
+            "patterns_translated": [
+                "Bolehkah saya bertanya sesuatu?"
+            ],
+            "responses_translated": [
+                "Tentu. Saya akan mencoba yang terbaik untuk menjawab Anda",
+                "Tentu saja. Jangan ragu untuk menanyakan apapun padaku. Saya akan melakukan yang terbaik untuk menjawab Anda"
+            ]
+        },
+        {
+            "tag": "problem",
+            "patterns": [
+                "Probably because my exams are approaching. I feel stressed out because I don't think I've prepared well enough.",
+                "probably because of my exams"
+            ],
+            "responses": [
+                "I see. Have you taken any approaches to not feel this way?"
+            ],
+            "patterns_translated": [
+                "Mungkin karena ujian saya semakin dekat. Saya merasa stres karena saya tidak berpikir saya tidak siap dengan cukup baik.",
+                "Mungkin karena ujian saya"
+            ],
+            "responses_translated": [
+                "Jadi begitu. Sudahkah Anda mengambil pendekatan apa pun untuk tidak merasakan hal ini?"
+            ]
+        },
+        {
+            "tag": "no-approach",
+            "patterns": [
+                "I guess not. All I can think about are my exams.",
+                "not really",
+                "i guess not"
+            ],
+            "responses": [
+                "That's no problem. I can see why you'd be stressed out about that. I can suggest you some tips to alleviate this issue. Would you like to learn more about that?"
+            ],
+            "patterns_translated": [
+                "Saya kira tidak. Yang bisa saya pikirkan hanyalah ujian saya.",
+                "tidak terlalu",
+                "Saya kira tidak"
+            ],
+            "responses_translated": [
+                "Itu tidak masalah. Saya bisa melihat mengapa Anda akan stres tentang itu. Saya dapat menyarankan Anda beberapa tips untuk mengurangi masalah ini. Apakah Anda ingin mempelajari lebih lanjut tentang itu?"
+            ]
+        },
+        {
+            "tag": "learn-more",
+            "patterns": [
+                "ok sure. i would like to learn more about it.",
+                "yes, i would like to learn more about it.",
+                "i would like to learn more about it."
+            ],
+            "responses": [
+                "So first I would suggest you to give yourself a break. Thinking more and more about the problem definitely does not help in solving it. You'll just end up overwhelming yourself."
+            ],
+            "patterns_translated": [
+                "ok tentu saja. Saya ingin mempelajari lebih lanjut tentang itu.",
+                "Ya, saya ingin mempelajari lebih lanjut tentang itu.",
+                "Saya ingin mempelajari lebih lanjut tentang itu."
+            ],
+            "responses_translated": [
+                "Jadi pertama -tama saya akan menyarankan Anda untuk istirahat. Lebih banyak berpikir tentang masalahnya jelas tidak membantu menyelesaikannya. Anda hanya akan membanjiri diri Anda sendiri."
+            ]
+        },
+        {
+            "tag": "user-agree",
+            "patterns": [
+                "yeah you're right. i deserve a break.",
+                "Yeah you're absolutely right about that"
+            ],
+            "responses": [
+                "Next, I would suggest you to practice meditation. Meditation can produce a deep state of relaxation and a tranquil mind."
+            ],
+            "patterns_translated": [
+                "ya kamu benar. Saya pantas istirahat.",
+                "Ya Anda benar tentang itu"
+            ],
+            "responses_translated": [
+                "Selanjutnya, saya akan menyarankan Anda untuk berlatih meditasi. Meditasi dapat menghasilkan keadaan relaksasi yang mendalam dan pikiran yang tenang."
+            ]
+        },
+        {
+            "tag": "meditation",
+            "patterns": [
+                "hmmm that sounds like it could be useful to me.",
+                "That sounds useful."
+            ],
+            "responses": [
+                "Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing."
+            ],
+            "patterns_translated": [
+                "Hmmm kedengarannya bisa bermanfaat bagi saya.",
+                "Kedengarannya berguna."
+            ],
+            "responses_translated": [
+                "Fokuskan semua perhatian Anda pada pernapasan Anda. Berkonsentrasi pada perasaan dan mendengarkan saat Anda menghirup dan menghembuskan napas melalui lubang hidung Anda. Bernafas dalam -dalam dan perlahan. Saat perhatian Anda mengembara, kembalikan dengan lembut fokus Anda ke pernapasan Anda."
+            ]
+        },
+        {
+            "tag": "user-meditation",
+            "patterns": [
+                "i did what you said and i feel alot better. thank you very much.",
+                "I feel better now"
+            ],
+            "responses": [
+                "Your welcome. Remember: Always focus on what's within your control. When you find yourself worrying, take a minute to examine the things you have control over. You can't prevent a storm from coming but you can prepare for it. You can't control how someone else behaves, but you can control how you react. Recognize that sometimes, all you can control is your effort and your attitude. When you put your energy into the things you can control, you'll be much more effective."
+            ],
+            "patterns_translated": [
+                "Saya melakukan apa yang Anda katakan dan saya merasa jauh lebih baik. Terima kasih banyak.",
+                "Saya merasa lebih baik sekarang"
+            ],
+            "responses_translated": [
+                "Sama-sama. Ingat: Selalu fokus pada apa yang ada dalam kendali Anda. Ketika Anda merasa khawatir, luangkan waktu sebentar untuk memeriksa hal -hal yang Anda kendalikan. Anda tidak dapat mencegah badai datang tetapi Anda dapat mempersiapkannya. Anda tidak dapat mengontrol bagaimana orang lain berperilaku, tetapi Anda dapat mengontrol bagaimana Anda bereaksi. Kenali bahwa kadang -kadang, yang dapat Anda kendalikan hanyalah usaha dan sikap Anda. Saat Anda memasukkan energi ke dalam hal -hal yang dapat Anda kendalikan, Anda akan jauh lebih efektif."
+            ]
+        },
+        {
+            "tag": "pandora-useful",
+            "patterns": [
+                "thank you very much again. i'll continue practicing meditation and focus on what i can control."
+            ],
+            "responses": [
+                "I'm glad you found this useful. Is there something else I can help you with?"
+            ],
+            "patterns_translated": [
+                "Terima kasih banyak lagi. Saya akan terus berlatih meditasi dan fokus pada apa yang dapat saya kendalikan."
+            ],
+            "responses_translated": [
+                "Saya senang Anda menemukan ini berguna. Apakah ada hal lain yang bisa saya bantu?"
+            ]
+        },
+        {
+            "tag": "user-advice",
+            "patterns": [
+                "I want some advice.",
+                "I need some advice.",
+                "I need advice on something"
+            ],
+            "responses": [
+                "Sure. What can I do to help?",
+                "Okay what do you need advice on?"
+            ],
+            "patterns_translated": [
+                "Saya ingin beberapa nasihat.",
+                "Saya butuh nasihat.",
+                "Saya butuh nasihat tentang sesuatu"
+            ],
+            "responses_translated": [
+                "Tentu. Apa yang saya bisa bantu?",
+                "Oke, apa yang Anda butuhkan nasihat?"
+            ]
+        },
+        {
+            "tag": "learn-mental-health",
+            "patterns": [
+                "I want to learn about mental health.",
+                "I want to learn more about mental health.",
+                "I'm interested in learning about mental health."
+            ],
+            "responses": [
+                "Oh that's really great. I'd be willing to answer anything that I know about it."
+            ],
+            "patterns_translated": [
+                "Saya ingin belajar tentang kesehatan mental.",
+                "Saya ingin belajar lebih banyak tentang kesehatan mental.",
+                "Saya tertarik belajar tentang kesehatan mental."
+            ],
+            "responses_translated": [
+                "Oh itu sangat bagus. Saya bersedia menjawab apa pun yang saya tahu tentang itu."
+            ]
+        },
+        {
+            "tag": "mental-health-fact",
+            "patterns": [
+                "Tell me a fact about mental health",
+                "Tell me another fact about mental health"
+            ],
+            "responses": [
+                "According to a UNICEF report, One in seven Indians between 15-24 years of age feels depressed",
+                "1 in 5 young people (age 13-18) has or will develop a mental illness in their lifetime.",
+                "Depression is the leading cause of disability worldwide."
+            ],
+            "patterns_translated": [
+                "Ceritakan fakta tentang kesehatan mental",
+                "Ceritakan fakta lain tentang kesehatan mental"
+            ],
+            "responses_translated": [
+                "Menurut laporan UNICEF, satu dari tujuh orang India berusia antara 15-24 tahun terasa tertekan",
+                "1 dari 5 anak muda (usia 13-18) memiliki atau akan mengembangkan penyakit mental dalam hidup mereka.",
+                "Depresi adalah penyebab utama kecacatan di seluruh dunia."
+            ]
+        },
+        {
+            "tag": "fact-1",
+            "patterns": [
+                "What is mental health?",
+                "Define Mental Health"
+            ],
+            "responses": [
+                "Mental health is a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community",
+                "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices."
+            ],
+            "patterns_translated": [
+                "Apa itu kesehatan mental?",
+                "Tentukan kesehatan mental"
+            ],
+            "responses_translated": [
+                "Kesehatan mental adalah keadaan kesejahteraan di mana individu tersebut menyadari kemampuannya sendiri, dapat mengatasi tekanan kehidupan yang normal, dapat bekerja secara produktif dan bermanfaat, dan mampu memberikan kontribusi kepada komunitasnya",
+                "Kesehatan mental termasuk kesejahteraan emosional, psikologis, dan sosial kita. Ini memengaruhi cara kita berpikir, merasakan, dan bertindak. Ini juga membantu menentukan bagaimana kita menangani stres, berhubungan dengan orang lain, dan membuat pilihan."
+            ]
+        },
+        {
+            "tag": "fact-2",
+            "patterns": [
+                "Why is mental health important?",
+                "What is the importance of mental health?"
+            ],
+            "responses": [
+                "Maintaining mental health is crucial to stabilizing constructive behaviors, emotions, and thoughts. Focusing on mental health care can increase productivity, enhance our self-image, and improve relationships."
+            ],
+            "patterns_translated": [
+                "Mengapa kesehatan mental penting?",
+                "Apa pentingnya kesehatan mental?"
+            ],
+            "responses_translated": [
+                "Menjaga kesehatan mental sangat penting untuk menstabilkan perilaku konstruktif, emosi, dan pikiran. Berfokus pada perawatan kesehatan mental dapat meningkatkan produktivitas, meningkatkan citra diri kita, dan meningkatkan hubungan."
+            ]
+        },
+        {
+            "tag": "fact-3",
+            "patterns": [
+                "What is Depression?",
+                "Define Depression"
+            ],
+            "responses": [
+                "A mental health disorder characterised by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life."
+            ],
+            "patterns_translated": [
+                "Apa itu Depresi?",
+                "Tentukan depresi"
+            ],
+            "responses_translated": [
+                "Gangguan kesehatan mental yang ditandai dengan suasana hati yang tertekan atau kehilangan minat dalam kegiatan, menyebabkan gangguan yang signifikan dalam kehidupan sehari -hari."
+            ]
+        },
+        {
+            "tag": "fact-4",
+            "patterns": [
+                "How do i know if i have Depression?",
+                "Am i depressed?",
+                "Am i suffering from depression?",
+                "Am i mentally ill?"
+            ],
+            "responses": [
+                "For a diagnosis of depression, a person needs to have experienced low mood or loss of interest or pleasure in life for at least 2 weeks. Also, they will have experienced the following symptoms: feelings of sadness, hopelessness, or irritability nearly every day."
+            ],
+            "patterns_translated": [
+                "Bagaimana saya tahu jika saya mengalami depresi?",
+                "Apakah saya depresi?",
+                "Apakah saya menderita depresi?",
+                "Apakah saya sakit mental?"
+            ],
+            "responses_translated": [
+                "Untuk diagnosis depresi, seseorang perlu mengalami suasana hati yang rendah atau kehilangan minat atau kesenangan dalam hidup setidaknya selama 2 minggu. Juga, mereka akan mengalami gejala -gejala berikut: perasaan sedih, putus asa, atau mudah marah hampir setiap hari."
+            ]
+        },
+        {
+            "tag": "fact-5",
+            "patterns": [
+                "What is a therapist?",
+                "What does a therapist do?"
+            ],
+            "responses": [
+                "A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others. "
+            ],
+            "patterns_translated": [
+                "Apa itu terapis?",
+                "Apa yang dilakukan terapis?"
+            ],
+            "responses_translated": [
+                "Terapis adalah penunjukan luas yang mengacu pada para profesional yang dilatih untuk memberikan perawatan dan rehabilitasi. Istilah ini sering diterapkan pada psikolog, tetapi dapat mencakup orang lain yang menyediakan berbagai layanan, termasuk pekerja sosial, konselor, pelatih kehidupan, dan banyak lainnya."
+            ]
+        },
+        {
+            "tag": "fact-6",
+            "patterns": [
+                "What is therapy?",
+                "Do i need therapy?",
+                "Who is therapy for?"
+            ],
+            "responses": [
+                "Therapy is a form of treatment that aims to help resolve mental or emotional issues.",
+                "Therapy is a form of treatment that aims to help resolve mental or emotional issues. It is helpful for those with mental health conditions or even everyday life challenges."
+            ],
+            "patterns_translated": [
+                "Apa itu terapi?",
+                "Apakah saya membutuhkan terapi?",
+                "Untuk siapa terapi?"
+            ],
+            "responses_translated": [
+                "Terapi adalah bentuk pengobatan yang bertujuan untuk membantu menyelesaikan masalah mental atau emosional.",
+                "Terapi adalah bentuk pengobatan yang bertujuan untuk membantu menyelesaikan masalah mental atau emosional. Sangat membantu bagi mereka yang memiliki kondisi kesehatan mental atau bahkan tantangan kehidupan sehari -hari."
+            ]
+        },
+        {
+            "tag": "fact-7",
+            "patterns": [
+                "What are some of the warning signs of mental illness?"
+            ],
+            "responses": [
+                "Symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once. \n In adults:\n Confused thinking\n Long-lasting sadness or irritability\n Extreme highs and lows in mood\n Excessive fear, worrying, or anxiety\n Social withdrawal\n Dramatic changes in eating or sleeping habits\n Strong feelings of anger\n Delusions or hallucinations (seeing or hearing things that are not really there)\n Increasing inability to cope with daily problems and activities\n Thoughts of suicide\n Denial of obvious problems\n Many unexplained physical problems\n Abuse of drugs and/or alcohol\n \nIn older children and pre-teens:\n Abuse of drugs and/or alcohol\n Inability to cope with daily problems and activities\n Changes in sleeping and/or eating habits\n Excessive complaints of physical problems\n Defying authority, skipping school, stealing, or damaging property\n Intense fear of gaining weight\n Long-lasting negative mood, often along with poor appetite and thoughts of death\n Frequent outbursts of anger\n \nIn younger children:\n Changes in school performance\n Poor grades despite strong efforts\n Excessive worrying or anxiety\n Hyperactivity\n Persistent nightmares\n Persistent disobedience and/or aggressive behavior\n Frequent temper tantrums"
+            ],
+            "patterns_translated": [
+                "Apa saja tanda -tanda peringatan penyakit mental?"
+            ],
+            "responses_translated": [
+                "Gejala gangguan kesehatan mental bervariasi tergantung pada jenis dan tingkat keparahan kondisi tersebut. Berikut ini adalah daftar gejala umum yang mungkin menunjukkan gangguan kesehatan mental, terutama ketika gejala ganda diekspresikan sekaligus. \n Pada orang dewasa:\n Bingung berpikir\n Kesedihan atau mudah marah yang tahan lama\n Tinggi dan rendah dalam suasana hati\n Ketakutan yang berlebihan, mengkhawatirkan, atau kecemasan\n Penarikan sosial\n Perubahan dramatis dalam kebiasaan makan atau tidur\n Perasaan marah yang kuat\n Delusi atau halusinasi (melihat atau mendengar hal -hal yang tidak benar -benar ada)\n Meningkatkan ketidakmampuan untuk mengatasi masalah dan kegiatan sehari -hari\n Pikiran bunuh diri\n Penolakan masalah yang jelas\n Banyak masalah fisik yang tidak dapat dijelaskan\n Penyalahgunaan narkoba dan/atau alkohol\n \nPada anak yang lebih besar dan pra-remaja:\n Penyalahgunaan narkoba dan/atau alkohol\n Ketidakmampuan untuk mengatasi masalah dan aktivitas sehari -hari\n Perubahan kebiasaan tidur dan/atau makan\n Keluhan Masalah Fisik yang Berlebihan\n Menentang otoritas, melewatkan sekolah, mencuri, atau merusak properti\n Ketakutan yang intens untuk menambah berat badan\n Suasana hati negatif yang tahan lama, seringkali bersama dengan nafsu makan yang buruk dan pikiran mati\n Ledakan kemarahan yang sering\n \nPada anak kecil:\n Perubahan kinerja sekolah\n Nilai yang buruk meskipun ada upaya kuat\n Kekhawatiran atau kecemasan yang berlebihan\n Hiperaktif\n Mimpi buruk yang gigih\n Ketidaktaatan yang terus -menerus dan/atau perilaku agresif\n Tantrum temperamen yang sering terjadi"
+            ]
+        },
+        {
+            "tag": "fact-8",
+            "patterns": [
+                "Can people with mental illness recover?"
+            ],
+            "responses": [
+                "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."
+            ],
+            "patterns_translated": [
+                "Bisakah orang dengan penyakit mental pulih?"
+            ],
+            "responses_translated": [
+                "Ketika penyembuhan dari penyakit mental, identifikasi dan pengobatan dini sangat penting. Berdasarkan sifat penyakit, ada berbagai perawatan efektif yang tersedia. Untuk semua jenis perawatan, penting bahwa orang yang terkena dampak proaktif dan sepenuhnya terlibat dalam proses pemulihan mereka sendiri. Banyak orang dengan penyakit mental yang didiagnosis dan dirawat merespons dengan baik, meskipun beberapa mungkin mengalami kembalinya gejala. Bahkan dalam kasus seperti itu, dengan pemantauan dan pengelolaan gangguan yang cermat, masih sangat mungkin untuk menjalani kehidupan yang terpenuhi dan produktif."
+            ]
+        },
+        {
+            "tag": "fact-9",
+            "patterns": [
+                "What should I do if I know someone who appears to have the symptoms of a mental disorder?"
+            ],
+            "responses": [
+                "Although Pandora cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery. If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."
+            ],
+            "patterns_translated": [
+                "Apa yang harus saya lakukan jika saya mengenal seseorang yang tampaknya memiliki gejala gangguan mental?"
+            ],
+            "responses_translated": [
+                "Meskipun Pandora tidak dapat menggantikan nasihat profesional, kami mendorong mereka yang memiliki gejala untuk berbicara dengan teman dan anggota keluarga mereka dan mencari nasihat seorang profesional kesehatan mental. Semakin cepat kondisi kesehatan mental diidentifikasi dan dirawat, semakin cepat mereka bisa berada di jalan menuju pemulihan. Jika Anda mengenal seseorang yang mengalami masalah, jangan berasumsi bahwa masalah itu akan sembuh sendiri. Biarkan mereka tahu bahwa Anda peduli pada mereka, dan ada pilihan perawatan yang tersedia yang akan membantu mereka sembuh. Bicaralah dengan seorang profesional atau penasihat kesehatan mental jika Anda pikir teman atau anggota keluarga Anda mengalami gejala kondisi kesehatan mental. Jika orang yang terkasih tahu bahwa Anda mendukung mereka, mereka akan lebih cenderung mencari bantuan."
+            ]
+        },
+        {
+            "tag": "fact-10",
+            "patterns": [
+                "How can I find a mental health professional for myself or my child?"
+            ],
+            "responses": [
+                "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."
+            ],
+            "patterns_translated": [
+                "Bagaimana saya bisa menemukan profesional kesehatan mental untuk diri saya sendiri atau anak saya?"
+            ],
+            "responses_translated": [
+                "Merasa nyaman dengan profesional yang Anda atau anak Anda bekerja sama sangat penting untuk keberhasilan perawatan. Menemukan profesional yang paling sesuai dengan kebutuhan Anda mungkin memerlukan penelitian. Mulailah dengan mencari penyedia di daerah Anda."
+            ]
+        },
+        {
+            "tag": "fact-11",
+            "patterns": [
+                "If I become involved in treatment, what do I need to know?"
+            ],
+            "responses": [
+                "Since beginning treatment is a big step for individuals and families, it can be very overwhelming. It is important to be as involved and engaged in the treatment process as possible. Some questions you will need to have answered include:\n What is known about the cause of this particular illness?\n Are there other diagnoses where these symptoms are common?\n Do you normally include a physical or neurological examination?\n Are there any additional tests or exams that you would recommend at this point?\n Would you advise an independent opinion from another psychiatrist at this point?\n What program of treatment is the most helpful with this diagnosis?\n Will this program involve services by other specialists? If so, who will be responsible for coordinating these services?\n What do you see as the family's role in this program of treatment?\n How much access will the family have to the individuals who are providing the treatment?\n What medications are generally used with this diagnosis?\n How much experience do you have in treating individuals with this illness?\n What can I do to help you in the treatment?"
+            ],
+            "patterns_translated": [
+                "Jika saya terlibat dalam perawatan, apa yang perlu saya ketahui?"
+            ],
+            "responses_translated": [
+                "Karena memulai perawatan adalah langkah besar bagi individu dan keluarga, itu bisa sangat luar biasa. Penting untuk terlibat dan terlibat dalam proses perawatan sebanyak mungkin. Beberapa pertanyaan yang perlu Anda jawab termasuk:\n Apa yang diketahui tentang penyebab penyakit khusus ini?\n Apakah ada diagnosis lain di mana gejala -gejala ini umum?\n Apakah Anda biasanya memasukkan pemeriksaan fisik atau neurologis?\n Apakah ada tes atau ujian tambahan yang akan Anda rekomendasikan pada saat ini?\n Apakah Anda akan menyarankan pendapat independen dari psikiater lain saat ini?\n Program pengobatan apa yang paling membantu dengan diagnosis ini?\n Apakah program ini akan melibatkan layanan oleh spesialis lain? Jika demikian, siapa yang akan bertanggung jawab untuk mengoordinasikan layanan ini?\n Apa yang Anda lihat sebagai peran keluarga dalam program perawatan ini?\n Berapa banyak akses yang akan dimiliki keluarga kepada orang -orang yang menyediakan perawatan?\n Obat apa yang umumnya digunakan dengan diagnosis ini?\n Berapa banyak pengalaman yang Anda miliki dalam memperlakukan orang dengan penyakit ini?\n Apa yang dapat saya lakukan untuk membantu Anda dalam perawatan?"
+            ]
+        },
+        {
+            "tag": "fact-12",
+            "patterns": [
+                "Where else can I get help?"
+            ],
+            "responses": [
+                "Where you go for help will depend on the nature of the problem and/or symptoms and what best fits you. Often, the best place to start is by talking with someone you trust about your concerns, such as a family member, friend, clergy, healthcare provider, or other professionals. Having this social support is essential in healing from mental illness, and you will be able to ask them for referrals or recommendations for trusted mental health practitioners. Search for mental health resources in your area. Secondly, there are people and places throughout the country that provide services to talk, to listen, and to help you on your journey to recovery. Thirdly, many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members, and friends. Some support groups are peer led while others may be led by a mental health professional."
+            ],
+            "patterns_translated": [
+                "Di mana lagi saya bisa mendapatkan bantuan?"
+            ],
+            "responses_translated": [
+                "Di mana Anda mencari bantuan akan tergantung pada sifat masalah dan/atau gejala dan apa yang paling cocok untuk Anda. Seringkali, tempat terbaik untuk memulai adalah dengan berbicara dengan seseorang yang Anda percayai tentang kekhawatiran Anda, seperti anggota keluarga, teman, pendeta, penyedia layanan kesehatan, atau profesional lainnya. Memiliki dukungan sosial ini sangat penting dalam penyembuhan dari penyakit mental, dan Anda akan dapat meminta mereka untuk rujukan atau rekomendasi untuk praktisi kesehatan mental tepercaya. Cari sumber daya kesehatan mental di daerah Anda. Kedua, ada orang dan tempat di seluruh negeri yang menyediakan layanan untuk berbicara, mendengarkan, dan membantu Anda dalam perjalanan menuju pemulihan. Ketiga, banyak orang menemukan peer mendukung alat yang bermanfaat yang dapat membantu pemulihan mereka. Ada berbagai organisasi yang menawarkan kelompok pendukung untuk konsumen, anggota keluarga mereka, dan teman -teman. Beberapa kelompok pendukung dipimpin rekan sementara yang lain mungkin dipimpin oleh profesional kesehatan mental."
+            ]
+        },
+        {
+            "tag": "fact-13",
+            "patterns": [
+                "Are there cures for mental health problems?",
+                "is there any cure for mental health problems?"
+            ],
+            "responses": [
+                "It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help."
+            ],
+            "patterns_translated": [
+                "Apakah ada obat untuk masalah kesehatan mental?",
+                "Apakah ada obat untuk masalah kesehatan mental?"
+            ],
+            "responses_translated": [
+                "Seringkali lebih realistis dan bermanfaat untuk mengetahui apa yang membantu dengan masalah yang Anda hadapi. Berbicara, konseling, obat -obatan, persahabatan, olahraga, tidur nyenyak dan nutrisi, dan pekerjaan yang bermakna semuanya bisa membantu."
+            ]
+        },
+        {
+            "tag": "fact-14",
+            "patterns": [
+                "What causes mental health problems?"
+            ],
+            "responses": [
+                "Challenges or problems with your mental health can arise from psychological, biological, and social, issues, as well as life events."
+            ],
+            "patterns_translated": [
+                "Apa yang menyebabkan masalah kesehatan mental?"
+            ],
+            "responses_translated": [
+                "Tantangan atau masalah dengan kesehatan mental Anda dapat muncul dari masalah psikologis, biologis, dan sosial, serta peristiwa kehidupan."
+            ]
+        },
+        {
+            "tag": "fact-28",
+            "patterns": [
+                "What do I do if I'm worried about my mental health?"
+            ],
+            "responses": [
+                "The most important thing is to talk to someone you trust. This might be a friend, colleague, family member, or GP. In addition to talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experiencing, and be the start of getting help."
+            ],
+            "patterns_translated": [
+                "Apa yang saya lakukan jika saya khawatir tentang kesehatan mental saya?"
+            ],
+            "responses_translated": [
+                "Yang paling penting adalah berbicara dengan seseorang yang Anda percayai. Ini mungkin teman, kolega, anggota keluarga, atau dokter umum. Selain berbicara dengan seseorang, mungkin berguna untuk mengetahui informasi lebih lanjut tentang apa yang Anda alami. Hal -hal ini dapat membantu mendapatkan beberapa perspektif tentang apa yang Anda alami, dan menjadi awal mendapatkan bantuan."
+            ]
+        },
+        {
+            "tag": "fact-29",
+            "patterns": [
+                "How do I know if I'm unwell?"
+            ],
+            "responses": [
+                "If your beliefs , thoughts , feelings or behaviours have a significant impact on your ability to function in what might be considered a normal or ordinary way, it would be important to seek help."
+            ],
+            "patterns_translated": [
+                "Bagaimana saya tahu jika saya tidak sehat?"
+            ],
+            "responses_translated": [
+                "Jika keyakinan, pikiran, perasaan, atau perilaku Anda memiliki dampak signifikan pada kemampuan Anda untuk berfungsi dalam apa yang mungkin dianggap sebagai cara yang normal atau biasa, penting untuk mencari bantuan."
+            ]
+        },
+        {
+            "tag": "fact-30",
+            "patterns": [
+                "How can I maintain social connections? What if I feel lonely?"
+            ],
+            "responses": [
+                "A lot of people are alone right now, but we don't have to be lonely. We're all in this together. Think about the different ways to connect that are most meaningful for you. For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call. Then, work with your social networks to make a plan. You might video chat with your close friends in the evening and phone a family member once a week. Remember to be mindful of people who may not be online. Check in by phone and ask how you can help. The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution. Everyone feels lonely at times. Maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone."
+            ],
+            "patterns_translated": [
+                "Bagaimana saya bisa mempertahankan koneksi sosial? Bagaimana jika saya merasa kesepian?"
+            ],
+            "responses_translated": [
+                "Banyak orang sendirian sekarang, tetapi kita tidak harus kesepian. Kita semua dalam hal ini bersama. Pikirkan berbagai cara untuk terhubung yang paling berarti bagi Anda. Misalnya, Anda mungkin lebih suka obrolan video daripada panggilan telepon, atau Anda mungkin lebih suka mengirim pesan teks sepanjang hari daripada satu waktu yang ditetapkan untuk panggilan video. Kemudian, bekerja dengan jejaring sosial Anda untuk membuat rencana. Anda dapat mengobrol video dengan teman dekat Anda di malam hari dan menelepon anggota keluarga seminggu sekali. Ingatlah untuk memperhatikan orang -orang yang mungkin tidak online. Check -in melalui telepon dan tanyakan bagaimana Anda dapat membantu. Kualitas koneksi sosial Anda penting. Tanpa pikiran menggulir melalui media sosial dan menyukai beberapa posting biasanya tidak membangun koneksi sosial yang kuat. Pastikan Anda fokus pada strategi yang benar -benar membuat Anda merasa termasuk dan terhubung. Jika strategi Anda saat ini tidak membantu Anda merasa terhubung, lekukan masalah untuk melihat apakah Anda dapat menemukan solusi. Semua orang kadang -kadang merasa kesepian. Mungkin Anda baru saja pindah ke kota baru, mengubah lingkaran teman Anda, kehilangan seseorang yang penting dalam hidup Anda, atau kehilangan pekerjaan dan juga kehilangan hubungan sosial penting dengan rekan kerja. Orang lain mungkin memiliki koneksi fisik dengan orang lain tetapi mungkin merasa seperti kebutuhan emosional atau sosial mereka tidak terpenuhi. Langkah-langkah seperti jarak sosial atau isolasi diri dapat membuat kesepian terasa lebih buruk, tidak peduli mengapa Anda merasa kesepian sekarang. Jangkau koneksi yang Anda miliki. Sarankan cara untuk tetap berhubungan dan melihat apakah Anda dapat mengatur waktu reguler untuk terhubung. Orang mungkin ragu untuk menjangkau banyak alasan berbeda, jadi jangan takut menjadi orang yang bertanya. Cari kelompok pendukung masyarakat setempat dan kelompok bantuan timbal balik di media sosial. Pandemi ini menyatukan semua orang, jadi cari peluang untuk membuat koneksi baru. Kelompok -kelompok ini adalah cara yang bagus untuk berbagi keterampilan dan kemampuan Anda atau mencari bantuan dan dukungan. Cari kelompok pendukung khusus. Grup pendukung bergerak secara online, dan ada banyak jalur dukungan yang berbeda untuk dihubungi jika Anda perlu berbicara dengan seseorang."
+            ]
+        },
+        {
+            "tag": "fact-31",
+            "patterns": [
+                "What's the difference between anxiety and stress?"
+            ],
+            "responses": [
+                "Stress and anxiety are often used interchangeably, and there is overlap between stress and anxiety. Stress is related to the same fight, flight, or freeze response as anxiety, and the physical sensations of anxiety and stress may be very similar. The cause of stress and anxiety are usually different, however. Stress focuses on mainly external pressures on us that we're finding hard to cope with. When we are stressed, we usually know what we're stressed about, and the symptoms of stress typically disappear after the stressful situation is over. Anxiety, on the other hand, isn't always as easy to figure out. Anxiety focuses on worries or fears about things that could threaten us, as well as anxiety about the anxiety itself. Stress and anxiety are both part of being human, but both can be problems if they last for a long time or have an impact on our well-being or daily life."
+            ],
+            "patterns_translated": [
+                "Apa perbedaan antara kecemasan dan stres?"
+            ],
+            "responses_translated": [
+                "Stres dan kecemasan sering digunakan secara bergantian, dan ada tumpang tindih antara stres dan kecemasan. Stres terkait dengan pertarungan yang sama, penerbangan, atau respons beku sebagai kecemasan, dan sensasi fisik kecemasan dan stres mungkin sangat mirip. Namun, penyebab stres dan kecemasan biasanya berbeda. Stres berfokus terutama pada tekanan eksternal pada kami yang kami temukan dengan keras untuk mengatasinya. Ketika kita stres, kita biasanya tahu apa yang kita stres, dan gejala stres biasanya hilang setelah situasi stres berakhir. Kecemasan, di sisi lain, tidak selalu mudah untuk diketahui. Kecemasan berfokus pada kekhawatiran atau ketakutan tentang hal -hal yang dapat mengancam kita, serta kecemasan tentang kecemasan itu sendiri. Stres dan kecemasan keduanya adalah bagian dari menjadi manusia, tetapi keduanya bisa menjadi masalah jika mereka bertahan lama atau berdampak pada kesejahteraan atau kehidupan sehari-hari kita."
+            ]
+        },
+        {
+            "tag": "fact-32",
+            "patterns": [
+                "What's the difference between sadness and depression?",
+                "difference between sadness and depression"
+            ],
+            "responses": [
+                "Sadness is a normal reaction to a loss, disappointment, problems, or other difficult situations. Feeling sad from time to time is just another part of being human. In these cases, feelings of sadness go away quickly and you can go about your daily life. Other ways to talk about sadness might be feeling low, feeling down, or feeling blue.A person may say they are feeling depressed, but if it goes away on its own and doesn't impact life in a big way, it probably isn't the illness of depression. Depression is a mental illness that affects your mood, the way you understand yourself, and the way you understand and relate to things around you. It can also go by different names, such as clinical depression, major depressive disorder, or major depression. Depression can come up for no reason, and it lasts for a long time. It's much more than sadness or low mood. People who experience depression may feel worthless or hopeless. They may feel unreasonable guilty. Some people may experience depression as anger or irritability. It may be hard to concentrate or make decisions. Most people lose interest in things that they used to enjoy and may isolate themselves from others. There are also physical signs of depression, such as problems with sleep, appetite and energy and unexplainable aches or pains. Some may experience difficult thoughts about death or ending their life (suicide). Depression lasts longer than two weeks, doesn't usually go away on its own, and impacts your life. It's a real illness, and it is very treatable. It's important to seek help if you're concerned about depression."
+            ],
+            "patterns_translated": [
+                "Apa perbedaan antara kesedihan dan depresi?",
+                "Perbedaan antara kesedihan dan depresi"
+            ],
+            "responses_translated": [
+                "Kesedihan adalah reaksi normal terhadap kehilangan, kekecewaan, masalah, atau situasi sulit lainnya. Merasa sedih dari waktu ke waktu hanyalah bagian lain dari menjadi manusia. Dalam kasus ini, perasaan sedih hilang dengan cepat dan Anda bisa menjalani kehidupan sehari -hari. Cara -cara lain untuk berbicara tentang kesedihan mungkin terasa rendah, merasa sedih, atau merasa biru. Orang mungkin mengatakan mereka merasa tertekan, tetapi jika itu hilang dengan sendirinya dan tidak memengaruhi kehidupan secara besar -besaran, itu mungkin bukan ' t penyakit depresi. Depresi adalah penyakit mental yang memengaruhi suasana hati Anda, cara Anda memahami diri sendiri, dan cara Anda memahami dan berhubungan dengan hal -hal di sekitar Anda. Ini juga dapat digunakan dengan nama yang berbeda, seperti depresi klinis, gangguan depresi mayor, atau depresi berat. Depresi dapat muncul tanpa alasan, dan itu berlangsung lama. Ini lebih dari sekadar kesedihan atau suasana hati yang rendah. Orang yang mengalami depresi mungkin terasa tidak berharga atau putus asa. Mereka mungkin merasa tidak masuk akal. Beberapa orang mungkin mengalami depresi sebagai kemarahan atau mudah marah. Mungkin sulit untuk berkonsentrasi atau membuat keputusan. Kebanyakan orang kehilangan minat pada hal -hal yang dulu mereka nikmati dan dapat mengisolasi diri dari orang lain. Ada juga tanda -tanda fisik depresi, seperti masalah dengan tidur, nafsu makan dan energi dan nyeri atau nyeri yang tidak dapat dijelaskan. Beberapa mungkin mengalami pikiran yang sulit tentang kematian atau mengakhiri hidup mereka (bunuh diri). Depresi berlangsung lebih dari dua minggu, biasanya tidak hilang dengan sendirinya, dan memengaruhi hidup Anda. Ini penyakit nyata, dan sangat bisa diobati. Penting untuk mencari bantuan jika Anda khawatir tentang depresi."
+            ]
+        }
+    ]
+}

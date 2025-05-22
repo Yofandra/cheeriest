@@ -1,0 +1,98 @@
+version: "3.1"
+
+stories:
+
+- story: meditation advice
+  steps:
+    - intent: user_agree
+    - action: utter_user_agree
+    - intent: meditation
+    - action: utter_meditation
+    - intent: user_motivation
+    - action: utter_motivation
+    - intent: goodbye
+    - action: action_bye_user
+
+- story: enough
+  steps:
+    - intent: not_talking
+    - action: utter_not_talking
+    - intent: done
+    - action: utter_done
+    - intent: goodbye
+    - action: action_bye_user
+
+- story: self harm and scared
+  steps:
+    - intent: self_harm
+    - action: utter_self_harm
+    - intent: scared
+    - action: utter_scared
+    - intent: user_motivation
+    - action: utter_motivation
+    - intent: goodbye
+    - action: action_bye_user
+
+- story: ask for help
+  steps:
+    - intent: need_help
+    - action: utter_need_help
+    - intent: user_motivation
+    - action: utter_motivation
+    - intent: goodbye
+    - action: action_bye_user
+
+- story: stressed not talking
+  steps:
+    - intent: stressed
+    - action: utter_stressed
+    - intent: not_talking
+    - action: utter_not_talking
+    - intent: user_motivation
+    - action: utter_motivation
+    - intent: goodbye
+    - action: action_bye_user
+
+- story: help and sad
+  steps:
+    - intent: need_help
+    - action: utter_need_help
+    - intent: feeling_sad
+    - action: utter_feeling_sad
+
+- story: anxious and meditation
+  steps:
+    - intent: anxious
+    - action: utter_anxious
+    - intent: meditation
+    - action: utter_meditation
+
+- story: worthless and motivation
+  steps:
+    - intent: feeling_worthless
+    - action: utter_suggestion_worthless
+    - intent: user_motivation
+    - action: utter_motivation
+
+- story: stres and meditation
+  steps:
+    - intent: stressed
+    - action: utter_stressed
+    - intent: meditation
+    - action: utter_meditation
+
+- story: lost and change topic
+  steps:
+    - intent: lost_someone
+    - action: utter_lost_someone
+    - intent: something_else
+    - action: utter_something_else
+
+- story: self harm after depressed
+  steps:
+    - intent: depressed
+    - action: utter_depressed
+    - intent: self_harm
+    - action: utter_self_harm
+
+

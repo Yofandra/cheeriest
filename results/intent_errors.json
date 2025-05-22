@@ -1,0 +1,354 @@
+[
+  {
+    "text": "makasih",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2101166695356369
+    }
+  },
+  {
+    "text": "Itu membantu",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "jokes",
+      "confidence": 0.14145077764987946
+    }
+  },
+  {
+    "text": "Dari Anda",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "jokes",
+      "confidence": 0.12465336173772812
+    }
+  },
+  {
+    "text": "saya bernama Icha",
+    "intent": "inform_name",
+    "intent_prediction": {
+      "name": "lost_someone",
+      "confidence": 0.2053961306810379
+    }
+  },
+  {
+    "text": "saya Aulia",
+    "intent": "inform_name",
+    "intent_prediction": {
+      "name": "lost_someone",
+      "confidence": 0.1731274574995041
+    }
+  },
+  {
+    "text": "Tidak hanya menjauh.",
+    "intent": "not_talking",
+    "intent_prediction": {
+      "name": "about",
+      "confidence": 0.13221512734889984
+    }
+  },
+  {
+    "text": "Saya tidak bisa membuat diri saya terbuka.",
+    "intent": "not_talking",
+    "intent_prediction": {
+      "name": "about",
+      "confidence": 0.1679629534482956
+    }
+  },
+  {
+    "text": "Diam saja",
+    "intent": "not_talking",
+    "intent_prediction": {
+      "name": "about",
+      "confidence": 0.18096868693828583
+    }
+  },
+  {
+    "text": "Saya takut",
+    "intent": "scared",
+    "intent_prediction": {
+      "name": "depressed",
+      "confidence": 0.14860285818576813
+    }
+  },
+  {
+    "text": "Kedengarannya mengerikan. Apa yang harus saya lakukan?",
+    "intent": "scared",
+    "intent_prediction": {
+      "name": "fact_7",
+      "confidence": 0.09101741760969162
+    }
+  },
+  {
+    "text": "Tidak, saya tidak ingin merasakan hal ini",
+    "intent": "scared",
+    "intent_prediction": {
+      "name": "depressed",
+      "confidence": 0.05540214478969574
+    }
+  },
+  {
+    "text": "Saya takut untuk diri saya sendiri",
+    "intent": "scared",
+    "intent_prediction": {
+      "name": "fact_7",
+      "confidence": 0.09615781158208847
+    }
+  },
+  {
+    "text": "Itu saja.",
+    "intent": "done",
+    "intent_prediction": {
+      "name": "feeling_worthless",
+      "confidence": 0.2355445772409439
+    }
+  },
+  {
+    "text": "Saya tidak punya apa -apa lagi untuk dikatakan",
+    "intent": "done",
+    "intent_prediction": {
+      "name": "feeling_worthless",
+      "confidence": 0.24733880162239075
+    }
+  },
+  {
+    "text": "Tidak ada yang lain",
+    "intent": "done",
+    "intent_prediction": {
+      "name": "feeling_worthless",
+      "confidence": 0.201602965593338
+    }
+  },
+  {
+    "text": "Hanya itu yang harus saya katakan",
+    "intent": "done",
+    "intent_prediction": {
+      "name": "feeling_worthless",
+      "confidence": 0.25032174587249756
+    }
+  },
+  {
+    "text": "Tidak, itu saja",
+    "intent": "done",
+    "intent_prediction": {
+      "name": "feeling_worthless",
+      "confidence": 0.28527575731277466
+    }
+  },
+  {
+    "text": "Aku membencimu",
+    "intent": "hate_bot",
+    "intent_prediction": {
+      "name": "feeling_worthless",
+      "confidence": 0.24106276035308838
+    }
+  },
+  {
+    "text": "Aku tidak menyukaimu",
+    "intent": "hate_bot",
+    "intent_prediction": {
+      "name": "feeling_worthless",
+      "confidence": 0.20403289794921875
+    }
+  },
+  {
+    "text": "Saya tidak mempercayai Anda",
+    "intent": "hate_bot",
+    "intent_prediction": {
+      "name": "jokes",
+      "confidence": 0.09589249640703201
+    }
+  },
+  {
+    "text": "Kamu membenciku",
+    "intent": "hate_me",
+    "intent_prediction": {
+      "name": "need_help",
+      "confidence": 0.09482400119304657
+    }
+  },
+  {
+    "text": "Anda tidak menyukai saya",
+    "intent": "hate_me",
+    "intent_prediction": {
+      "name": "need_help",
+      "confidence": 0.12354247272014618
+    }
+  },
+  {
+    "text": "Apa yang kamu katakan?",
+    "intent": "wrong",
+    "intent_prediction": {
+      "name": "about",
+      "confidence": 0.3644084632396698
+    }
+  },
+  {
+    "text": "Itu tidak masuk akal",
+    "intent": "wrong",
+    "intent_prediction": {
+      "name": "feeling_worthless",
+      "confidence": 0.42062100768089294
+    }
+  },
+  {
+    "text": "Saya tidak punya teman",
+    "intent": "friends",
+    "intent_prediction": {
+      "name": "sleep_problems",
+      "confidence": 0.22781401872634888
+    }
+  },
+  {
+    "text": "Saya tidak memiliki sahabat",
+    "intent": "friends",
+    "intent_prediction": {
+      "name": "sleep_problems",
+      "confidence": 0.21058104932308197
+    }
+  },
+  {
+    "text": "Saya kesepian",
+    "intent": "friends",
+    "intent_prediction": {
+      "name": "feeling_sad",
+      "confidence": 0.16812482476234436
+    }
+  },
+  {
+    "text": "Saya gak punya teman",
+    "intent": "friends",
+    "intent_prediction": {
+      "name": "sleep_problems",
+      "confidence": 0.3267279267311096
+    }
+  },
+  {
+    "text": "Kedengarannya berguna.",
+    "intent": "meditation",
+    "intent_prediction": {
+      "name": "feeling_happy",
+      "confidence": 0.21276795864105225
+    }
+  },
+  {
+    "text": "Bagaimana cara melakukan meditasi?",
+    "intent": "meditation",
+    "intent_prediction": {
+      "name": "feeling_happy",
+      "confidence": 0.1260382980108261
+    }
+  },
+  {
+    "text": "tolong berikan saya motivasi.",
+    "intent": "user_motivation",
+    "intent_prediction": {
+      "name": "need_help",
+      "confidence": 0.19905813038349152
+    }
+  },
+  {
+    "text": "Ceritakan tentang kesehatan mental",
+    "intent": "fact_1",
+    "intent_prediction": {
+      "name": "sleep_problems",
+      "confidence": 0.46005234122276306
+    }
+  },
+  {
+    "text": "Apa pentingnya kesehatan mental?",
+    "intent": "fact_2",
+    "intent_prediction": {
+      "name": "fact_1",
+      "confidence": 0.19904278218746185
+    }
+  },
+  {
+    "text": "Mengapa kesehatan mental itu penting?",
+    "intent": "fact_2",
+    "intent_prediction": {
+      "name": "sleep_problems",
+      "confidence": 0.2414017915725708
+    }
+  },
+  {
+    "text": "Apa itu depresi?",
+    "intent": "fact_3",
+    "intent_prediction": {
+      "name": "feeling_happy",
+      "confidence": 0.097205750644207
+    }
+  },
+  {
+    "text": "Apa yang dimaksud dengan depresi?",
+    "intent": "fact_3",
+    "intent_prediction": {
+      "name": "feeling_happy",
+      "confidence": 0.11691304296255112
+    }
+  },
+  {
+    "text": "Bagaimana saya tahu jika saya mengalami depresi?",
+    "intent": "fact_4",
+    "intent_prediction": {
+      "name": "depressed",
+      "confidence": 0.16679707169532776
+    }
+  },
+  {
+    "text": "Apakah saya depresi?",
+    "intent": "fact_4",
+    "intent_prediction": {
+      "name": "suicide",
+      "confidence": 0.1023467406630516
+    }
+  },
+  {
+    "text": "Apakah saya menderita depresi?",
+    "intent": "fact_4",
+    "intent_prediction": {
+      "name": "suicide",
+      "confidence": 0.1373058557510376
+    }
+  },
+  {
+    "text": "Apakah saya sakit mental?",
+    "intent": "fact_4",
+    "intent_prediction": {
+      "name": "fact_7",
+      "confidence": 0.11208057403564453
+    }
+  },
+  {
+    "text": "Apa itu terapis?",
+    "intent": "fact_5",
+    "intent_prediction": {
+      "name": "jokes",
+      "confidence": 0.06405721604824066
+    }
+  },
+  {
+    "text": "Jika saya terlibat dalam perawatan, apa yang perlu saya ketahui?",
+    "intent": "fact_11",
+    "intent_prediction": {
+      "name": "self_harm",
+      "confidence": 0.16378484666347504
+    }
+  },
+  {
+    "text": "Apa yang harus saya ketahui tentang perawatan kesehatan mental?",
+    "intent": "fact_11",
+    "intent_prediction": {
+      "name": "fact_10",
+      "confidence": 0.12249905616044998
+    }
+  },
+  {
+    "text": "Apa yang menyebabkan penyakit mental?",
+    "intent": "fact_14",
+    "intent_prediction": {
+      "name": "fact_8",
+      "confidence": 0.3179970979690552
+    }
+  }
+]

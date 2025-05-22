@@ -1,0 +1,257 @@
+version: "3.1"
+
+rules:
+- rule: reply greeting
+  steps:
+    - intent: greeting
+    - action: action_greet_user
+
+- rule: reply goodbye
+  steps:
+    - intent: goodbye
+    - action: action_bye_user
+
+- rule: thanks
+  steps:
+    - intent: thanks
+    - action: utter_thanks
+
+- rule: about
+  steps:
+    - intent: about
+    - action: utter_about
+
+- rule: anxious 
+  steps:
+    - intent: anxious
+    - action: utter_anxious
+
+- rule: satisfaction suggestion
+  steps:
+    - intent: satisfaction
+    - action: utter_suggestion_satisfaction
+
+- rule: self-harm suggestion
+  steps:
+    - intent: self_harm
+    - action: utter_self_harm
+
+- rule: worthless suggestion
+  steps:
+    - intent: feeling_worthless
+    - action: utter_suggestion_worthless
+
+# - rule: Fallback Response
+#   steps:
+#   - intent: nlu_fallback
+#   - action: utter_default
+
+- rule: inform name
+  steps:
+    - intent: inform_name
+    - action: utter_inform_name
+
+- rule: need help
+  steps:
+    - intent: need_help
+    - action: utter_need_help
+
+- rule: feeling sad
+  steps:
+    - intent: feeling_sad
+    - action: utter_feeling_sad
+
+- rule: feeling stressed
+  steps:
+    - intent: stressed
+    - action: utter_stressed
+
+- rule: feeling happy
+  steps:
+    - intent: feeling_happy
+    - action: utter_happy
+
+- rule: depressed
+  steps:
+    - intent: depressed
+    - action: utter_depressed
+
+- rule: not talking
+  steps:
+    - intent: not_talking
+    - action: utter_not_talking
+
+- rule: sleep problems
+  steps:
+    - intent: sleep_problems
+    - action: utter_sleep_problems
+
+- rule: scared
+  steps:
+    - intent: scared
+    - action: utter_scared
+
+- rule: lost_someone
+  steps:
+    - intent: lost_someone
+    - action: utter_lost_someone
+
+- rule: understanding
+  steps:
+    - intent: understanding
+    - action: utter_understanding
+
+- rule: done
+  steps:
+    - intent: done
+    - action: utter_done
+
+- rule: suicide
+  steps:
+    - intent: suicide
+    - action: utter_suicide
+
+- rule: hate bot
+  steps:
+   - intent: hate_bot
+   - action: utter_hate_bot
+
+- rule: hate me
+  steps:
+   - intent: hate_me  
+   - action: utter_hate_me
+
+- rule: jokes
+  steps:
+    - intent: jokes
+    - action: utter_jokes
+
+- rule: repeat
+  steps:
+    - intent: repeat
+    - action: utter_repeat
+
+- rule: wrong
+  steps:
+    - intent: wrong
+    - action: utter_wrong
+
+- rule: stupid
+  steps:
+    - intent: stupid
+    - action: utter_stupid
+
+- rule: location
+  steps:
+    - intent: location
+    - action: utter_location
+
+- rule: something else
+  steps:
+    - intent: something_else
+    - action: utter_something_else
+
+- rule: friends
+  steps:
+    - intent: friends
+    - action: utter_friends
+
+- rule: ask
+  steps: 
+    - intent: ask
+    - action: utter_ask
+
+- rule: user agree
+  steps:
+    - intent: user_agree
+    - action: utter_user_agree
+
+- rule: meditation
+  steps:
+    - intent: meditation
+    - action: utter_meditation
+
+- rule: user advice
+  steps:
+    - intent: user_advice
+    - action: utter_user_advice
+
+- rule: ask motivation
+  steps:
+    - intent: user_motivation
+    - action: utter_motivation
+
+- rule: fact 1
+  steps:
+    - intent: fact_1
+    - action: utter_fact_1
+
+- rule: fact 2
+  steps:
+    - intent: fact_2
+    - action: utter_fact_2
+
+- rule: fact 3
+  steps:
+    - intent: fact_3
+    - action: utter_fact_3
+
+- rule: fact 4
+  steps:
+    - intent: fact_4
+    - action: utter_fact_4
+
+- rule: fact 5
+  steps:
+    - intent: fact_5
+    - action: utter_fact_5
+
+- rule: fact 6
+  steps:
+    - intent: fact_6
+    - action: utter_fact_6
+
+- rule: fact 7
+  steps:
+    - intent: fact_7
+    - action: utter_fact_7
+
+- rule: fact 8
+  steps:
+    - intent: fact_8
+    - action: utter_fact_8
+
+- rule: fact 9
+  steps:
+    - intent: fact_9
+    - action: utter_fact_9
+
+- rule: fact 10
+  steps:
+    - intent: fact_10
+    - action: utter_fact_10
+
+- rule: fact 11
+  steps:
+    - intent: fact_11
+    - action: utter_fact_11
+
+- rule: fact 12
+  steps:
+    - intent: fact_12
+    - action: utter_fact_12
+
+- rule: fact 13
+  steps:
+    - intent: fact_13
+    - action: utter_fact_13
+
+- rule: fact 14
+  steps:
+    - intent: fact_14
+    - action: utter_fact_14
+
+- rule: Handle fallback with semantic search
+  steps:
+    - intent: nlu_fallback
+    - action: action_semantic_response

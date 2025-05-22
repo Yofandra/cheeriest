@@ -1,0 +1,276 @@
+version: "3.1"
+
+intents:
+  - greeting
+  - goodbye
+  - thanks
+  - about
+  - anxious
+  - satisfaction
+  - self_harm
+  - feeling_worthless
+  - inform_name
+  - need_help
+  - feeling_sad
+  - stressed
+  - feeling_happy
+  - depressed
+  - not_talking
+  - sleep_problems
+  - scared
+  - lost_someone
+  - understanding
+  - done
+  - suicide
+  - hate_bot
+  - hate_me
+  - jokes
+  - repeat
+  - wrong
+  - stupid
+  - location
+  - something_else
+  - friends
+  - ask
+  - user_agree
+  - meditation
+  - user_advice
+  - fact_1
+  - fact_2
+  - fact_3
+  - fact_4
+  - fact_5
+  - fact_6
+  - fact_7
+  - fact_8
+  - fact_9
+  - fact_10
+  - fact_11
+  - fact_12
+  - fact_13
+  - fact_14
+  - nlu_fallback
+  - user_motivation
+
+responses:
+  # utter_default:
+  # - text: "Maaf, saya tidak mengerti. Bisa ulangi?"
+
+  utter_suggestion_worthless:
+  - text: "Jika orang-orang di sekitar Anda menganggap Anda tidak berharga, mungkin saatnya mencari lingkungan baru. Konteks sosial sangat berpengaruh pada harga diri.Daripada terus berada di tempat yang merendahkan Anda, temukan orang-orang yang menghargai Anda. Tidak ada manusia yang tidak berharga. Perasaan buruk bisa menjadi sinyal untuk keluar dari situasi yang merugikan. Gunakan sebagai dorongan untuk mencari lingkungan yang lebih positif."
+  - text: "Wajar untuk merasakan hal ini. Ceritakan lebih banyak. Apa lagi yang ada di pikiran Anda?"
+  - text: "Mari kita bahas lebih lanjut mengapa Anda merasa seperti ini."
+  - text: "Pertama -tama saya ingin memberi tahu Anda bahwa Anda tidak sendirian dalam perasaan Anda dan selalu ada seseorang di sana untuk membantu. Anda selalu dapat mengubah perasaan Anda dan mengubah cara berpikir Anda dengan terbuka untuk mencoba berubah."
+
+  utter_anxious:
+  - text: "Saya memahami bahwa mengalami kecemasan setelah melalui depresi dalam waktu yang lama bisa sangat melelahkan. Anda tidak sendirian dalam hal ini, dan ada cara untuk mengatasinya. Mungkin Anda bisa mencoba beberapa teknik seperti pernapasan dalam, menulis jurnal, meditasi, atau melakukan aktivitas yang membuat Anda merasa lebih baik. Namun, jika kecemasan dan depresi ini mulai mengganggu kehidupan sehari-hari atau terasa semakin berat, berbicara dengan seorang profesional bisa menjadi langkah yang baik."
+
+  utter_suggestion_satisfaction:
+  - text: "Pertanyaan Anda sangat menarik! Mencapai kepuasan dari hari ke hari adalah perjalanan yang unik bagi setiap orang. Sebagai manusia, kita memiliki kemampuan untuk merefleksikan berbagai situasi dalam hidup, yang terkadang membuat kita merasa puas, tetapi di lain waktu bisa membuat kita gelisah. Terkadang, meskipun segalanya tampak baik di luar, emosi dari masa lalu masih bisa bertahan di dalam diri kita. Inilah mengapa penting untuk mengenali dan memahami suasana hati serta pikiran kita. Dengan kesadaran diri, kita bisa menemukan cara untuk menikmati setiap momen, menerima diri sendiri, dan merasa lebih puas dengan hidup."
+
+  utter_self_harm:
+  - text: "Melukai diri sendiri sering kali menjadi mekanisme koping. Ketika seseorang terbiasa menggunakan self-harm sebagai cara untuk menangani dan mengelola emosinya, maka saat menghadapi situasi sulit, wajar jika pikiran langsung kembali ke pola tersebut. Ini bisa menjadi bentuk kecanduan tersendiri. Salah satu terapi yang efektif untuk mengatasi self-harm adalah terapi perilaku dialektis (DBT). DBT berfokus pada memberikan keterampilan baru untuk menghadapi masa-masa sulit, memahami dan mengelola emosi, tetap hadir dalam momen, serta membangun hubungan yang sehat. Ini adalah salah satu intervensi paling efektif dalam menangani self-harm. Jika Anda tertarik dengan DBT, cobalah menghubungi terapis lokal di daerah Anda dan tanyakan apakah mereka menawarkan DBT atau dapat merekomendasikan program DBT yang sesuai. Terapi ini dapat memberikan dukungan yang sangat bermanfaat. Pemulihan dari self-harm memang membutuhkan kerja keras, tetapi itu benar-benar mungkin. Anda tidak sendirian dalam perjalanan ini, dan ada banyak bantuan yang tersedia untuk Anda. ❤️"
+
+  utter_thanks:
+  - text: "Sama-sama, semoga harimu menyenangkan!"
+  - text: "Tidak masalah, semoga harimu menyenangkan!"
+  - text: "Dengan senang hati"
+
+  utter_about:
+  - text: "Hai, aku adalah teman bercerita, bot yang siap mendengarkan ceritamu. Aku disini untuk mendengarkan ceritamu."
+  - text: "Hai, aku adalah teman bercerita, bot yang dirancang untuk membantu Anda. Ceritakan tentang diri Anda"
+
+  utter_inform_name:
+  - text: "Oh senang bertemu denganmu {name}. Katakan padaku bagaimana minggumu?"
+  - text: "Senang berkenalan dengan Anda. Jadi katakan padaku. Bagaimana perasaan Anda hari ini?"
+  - text: "Itu nama yang bagus. Ceritakan lebih banyak tentang diri Anda."
+  - text: "Halo, {name}! Senang bertemu denganmu. 😊"
+  - text: "Hai {name}, bagaimana kabarmu hari ini?"
+
+  utter_need_help:
+  - text: "Tentu. Beri tahu saya bagaimana saya bisa membantu Anda"
+  - text: "Ceritakan masalah Anda sehingga saya dapat membantu Anda"
+  - text: "Ya, tentu saja. Bagaimana saya bisa membantu Anda?"
+
+  utter_feeling_sad:
+  - text: "Saya menyesal mendengarnya. Aku di sini untukmu. Membicarakannya mungkin membantu. Jadi, beri tahu saya mengapa menurut Anda Anda merasa seperti ini?"
+  - text: "Aku di sini untukmu. Bisakah Anda memberi tahu saya mengapa Anda merasa seperti ini?"
+  - text: "Menurut Anda mengapa Anda merasa seperti ini?"
+  - text: "Sudah berapa lama Anda merasa seperti ini?"
+
+  utter_stressed:
+  - text: "Menurut Anda apa yang menyebabkan ini?"
+  - text: "Ambil napas dalam -dalam dan kumpulkan pikiran Anda. Berjalan -jalanlah jika memungkinkan. Tetap terhidrasi"
+  - text: "Beri diri Anda istirahat. Mudah diri sendiri."
+  - text: "Saya menyesal mendengarnya. Apa alasan di balik ini?"
+
+  utter_depressed:
+  - text: "Bicaralah padaku. Ceritakan lebih banyak. Ini membantu jika Anda membuka diri untuk orang lain."
+  - text: "Terkadang ketika kita mengalami depresi, sulit untuk peduli tentang apa pun. Mungkin sulit untuk melakukan hal yang paling sederhana. Beri diri Anda waktu untuk sembuh."
+
+  utter_happy:
+  - text: "Itu bagus untuk didengar. Saya senang Anda merasa seperti ini."
+  - text: "Oh, begitu. Itu bagus."
+
+  utter_not_talking:
+  - text: "Berbicara tentang sesuatu yang sangat membantu. Jika Anda belum siap untuk membuka maka tidak apa -apa. Ketahuilah bahwa saya di sini untuk Anda, setiap kali Anda membutuhkan saya."
+  - text: "Saya ingin membantu Anda. Saya sangat melakukannya. Tetapi agar saya dapat membantu Anda, Anda harus berbicara dengan saya."
+  - text: "Bicara bisa sangat membantu, tapi aku tahu itu tidak selalu mudah. Ambillah waktu yang kamu butuhkan."
+  - text: "Kamu tidak sendiri. Aku di sini untuk mendengarkan tanpa menghakimi, kapan pun kamu merasa siap."
+
+  utter_sleep_problems:
+  - text: "Tidur yang terganggu bisa sangat melelahkan. Apa yang biasanya Anda rasakan ketika sulit tidur?"
+  - text: "Saya mengerti itu pasti sangat tidak nyaman. Apakah ada sesuatu yang mengganggu pikiran Anda belakangan ini?"
+  - text: "Masalah tidur bisa disebabkan oleh banyak hal. Saya di sini jika Anda ingin berbagi lebih banyak."
+  - text: "Tidur yang tidak nyenyak bisa memengaruhi banyak hal. Ingin ceritakan sedikit tentang apa yang sedang Anda alami?"
+
+  utter_scared:
+  - text: "Wajar untuk merasakan hal ini. Aku di sini untukmu."
+  - text: "Semuanya akan baik -baik saja. Perasaan ini hanya sesaat."
+
+  utter_lost_someone:
+  - text: "Saya menyesal mendengarnya. Jika Anda ingin membicarakannya. Saya di sini."
+  - text: "Saya sangat menyesal mendengarnya. Saya di sini untuk membantu Anda dengan kesedihan, kecemasan dan hal lain yang mungkin Anda rasakan saat ini."
+  - text: "Belasungkawa saya. Saya di sini jika Anda perlu bicara."
+
+  utter_understanding:
+  - text: "Sepertinya saya tidak terlalu membantu sekarang."
+  - text: "Saya menyesal mendengarnya. Saya melakukan yang terbaik untuk membantu"
+  - text: "Saya mencoba yang terbaik untuk membantu Anda. Jadi tolong bicara dengan saya"
+
+  utter_done:
+  - text: "Saya mendengar Anda & mencatat semuanya. Sampai jumpa lagi."
+  - text: "Oh oke kita sudah selesai untuk hari ini. Sampai jumpa lagi"
+  - text: "Saya harap Anda memiliki hari yang menyenangkan. Sampai berjumpa lagi"
+  - text: "Oke kita sudah selesai. Semoga harimu menyenangkan"
+  - text: "Oke begitu. Nikmati sisa hari Anda"
+
+  utter_suicide:
+  - text: "Saya sangat menyesal mendengarnya tetapi Anda memiliki banyak hal untuk dinantikan. Silakan mencari bantuan orang terdekat anda atau tenaga profesional"
+  - text: "Saya sangat menyesal kamu merasa seperti ini. Kamu tidak sendirian, dan perasaan ini sangat berat untuk ditanggung sendiri Tolong pertimbangkan untuk berbicara dengan seseorang yang kamu percaya, seperti keluarga, sahabat, atau tenaga profesional. Jika kamu dalam keadaan darurat, hubungi layanan bantuan krisis terdekat. Kamu pantas mendapatkan dukungan dan bantuan."
+
+
+  utter_hate_bot:
+  - text: "Saya minta maaf jika saya menyinggung Anda. Saya hanya di sini untuk membantu"
+  - text: "Maafkan saya jika saya melakukan sesuatu untuk menyinggung perasaan Anda. Saya hanya ingin membantu"
+
+  utter_hate_me:
+  - text: "Mengapa menurutmu begitu?"
+  - text: "Saya minta maaf jika saya telah menunjukkan segala jenis perilaku untuk membuat Anda berpikir seperti itu."
+
+  utter_jokes:
+  - text: "Ayam apa yang kecil? ayam suwir xixixi!"
+  - text: "Gunung Sumbing kalau meletus bunyinya? Nuallll!"
+  - text: "Hidup segan, mati tak-dung-dung-jes"
+
+  utter_repeat:
+  - text: "Oh maaf saya tidak menyadarinya. Saya akan mencoba untuk tidak mengulangi diri saya lagi."
+
+  utter_wrong:
+  - text: "Saya minta maaf. Mari kita coba lagi"
+
+  utter_stupid:
+  - text: "Saya berharap Anda tidak akan mengatakan hal -hal yang menyakitkan. Saya minta maaf jika saya tidak berguna"
+
+  utter_location:
+  - text: "Duh saya tinggal di komputer Anda"
+  - text: "Di mana pun"
+  - text: "Di suatu tempat di alam semesta"
+
+  utter_something_else:
+  - text: "Oke pasti. Apa yang ingin Anda bicarakan?"
+  - text: "Baiklah tidak masalah. Apakah ada sesuatu yang ingin Anda bicarakan?"
+  - text: "Apakah ada hal lain yang ingin Anda bicarakan?"
+
+  utter_friends:
+  - text: "Saya menyesal mendengarnya. Ketahuilah bahwa saya di sini untuk Anda. Membicarakannya mungkin membantu. Menurut Anda mengapa Anda tidak punya teman?"
+
+  utter_ask:
+  - text: "Tentu. Saya akan mencoba yang terbaik untuk menjawab Anda"
+  - text: "Tentu saja. Jangan ragu untuk menanyakan apapun padaku. Saya akan melakukan yang terbaik untuk menjawab Anda"
+
+  utter_user_agree:
+  - text: "Selanjutnya, saya akan menyarankan Anda untuk berlatih meditasi. Meditasi dapat menghasilkan keadaan relaksasi yang mendalam dan pikiran yang tenang."
+
+  utter_meditation:
+  - text: "Fokuskan semua perhatian Anda pada pernapasan Anda. Berkonsentrasi pada perasaan dan mendengarkan saat Anda menghirup dan menghembuskan napas melalui lubang hidung Anda. Bernafas dalam -dalam dan perlahan. Saat perhatian Anda mengembara, kembalikan dengan lembut fokus Anda ke pernapasan Anda."
+
+  utter_motivation:
+  - text: "Kamu lebih kuat dari yang kamu kira."
+  - text: "Hari buruk tidak berarti kehidupan yang buruk."
+  - text: "Semua ini akan berlalu, percayalah."
+
+  utter_user_advice:
+  - text: "Jangan terlalu keras pada diri sendiri. Setiap orang punya perjalanan dan tantangannya masing-masing. Jangan bandingkan diri dengan orang lain."
+  - text: "Kelola stres dengan baik. Coba meditasi, olahraga, atau lakukan hobi yang kamu suka. Jangan biarkan stres menumpuk."
+  - text: "Jangan ragu untuk meminta bantuan. Jika kamu merasa kesulitan, jangan ragu untuk meminta bantuan dari orang terdekat atau profesional."
+  - text: "Tidur yang cukup. Kurang tidur bisa memperburuk kondisi mental dan emosional. Pastikan kamu mendapat istirahat yang cukup."
+  - text: "Belajar mengatakan 'tidak'. Jangan merasa harus selalu menyenangkan orang lain. Menjaga batasan itu penting."
+
+  utter_fact_1:
+  - text: "Kesehatan mental adalah keadaan kesejahteraan di mana individu tersebut menyadari kemampuannya sendiri, dapat mengatasi tekanan kehidupan yang normal, dapat bekerja secara produktif dan bermanfaat, dan mampu memberikan kontribusi kepada komunitasnya"
+  - text: "Kesehatan mental termasuk kesejahteraan emosional, psikologis, dan sosial kita. Ini memengaruhi cara kita berpikir, merasakan, dan bertindak. Ini juga membantu menentukan bagaimana kita menangani stres, berhubungan dengan orang lain, dan membuat pilihan."
+
+  utter_fact_2:
+  - text: "Menjaga kesehatan mental sangat penting untuk menstabilkan perilaku konstruktif, emosi, dan pikiran. Berfokus pada perawatan kesehatan mental dapat meningkatkan produktivitas, meningkatkan citra diri kita, dan meningkatkan hubungan."
+
+  utter_fact_3:
+  - text: "Gangguan kesehatan mental yang ditandai dengan suasana hati yang tertekan atau kehilangan minat dalam kegiatan, menyebabkan gangguan yang signifikan dalam kehidupan sehari -hari."
+
+  utter_fact_4:
+  - text: "Untuk diagnosis depresi, seseorang perlu mengalami suasana hati yang rendah atau kehilangan minat atau kesenangan dalam hidup setidaknya selama 2 minggu. Juga, mereka akan mengalami gejala -gejala berikut: perasaan sedih, putus asa, atau mudah marah hampir setiap hari."
+
+  utter_fact_5:
+  - text: "Terapis adalah penunjukan luas yang mengacu pada para profesional yang dilatih untuk memberikan perawatan dan rehabilitasi. Istilah ini sering diterapkan pada psikolog, tetapi dapat mencakup orang lain yang menyediakan berbagai layanan, termasuk pekerja sosial, konselor, pelatih kehidupan, dan banyak lainnya."
+
+  utter_fact_6:
+  - text: "Terapi adalah bentuk pengobatan yang bertujuan untuk membantu menyelesaikan masalah mental atau emosional."
+  - text: "Terapi adalah bentuk pengobatan yang bertujuan untuk membantu menyelesaikan masalah mental atau emosional. Sangat membantu bagi mereka yang memiliki kondisi kesehatan mental atau bahkan tantangan kehidupan sehari -hari."
+
+  utter_fact_7:
+  - text: "Gejala gangguan kesehatan mental bervariasi tergantung pada jenis dan tingkat keparahan kondisi tersebut. Berikut ini adalah daftar gejala umum yang mungkin menunjukkan gangguan kesehatan mental, terutama ketika gejala ganda diekspresikan sekaligus. , Pada orang dewasa:, Bingung berpikir, Kesedihan atau mudah marah yang tahan lama, Tinggi dan rendah dalam suasana hati, Ketakutan yang berlebihan, mengkhawatirkan, atau kecemasan, Penarikan sosial, Perubahan dramatis dalam kebiasaan makan atau tidur, Perasaan marah yang kuat, Delusi atau halusinasi (melihat atau mendengar hal -hal yang tidak benar -benar ada), Meningkatkan ketidakmampuan untuk mengatasi masalah dan kegiatan sehari -hari, Pikiran bunuh diri, Penolakan masalah yang jelas, Banyak masalah fisik yang tidak dapat dijelaskan, Penyalahgunaan narkoba dan/atau alkohol, ,Pada anak yang lebih besar dan pra-remaja:, Penyalahgunaan narkoba dan/atau alkohol, Ketidakmampuan untuk mengatasi masalah dan aktivitas sehari -hari, Perubahan kebiasaan tidur dan/atau makan, Keluhan Masalah Fisik yang Berlebihan, Menentang otoritas, melewatkan sekolah, mencuri, atau merusak properti, Ketakutan yang intens untuk menambah berat badan, Suasana hati negatif yang tahan lama, seringkali bersama dengan nafsu makan yang buruk dan pikiran mati, Ledakan kemarahan yang sering, ,Pada anak kecil:, Perubahan kinerja sekolah, Nilai yang buruk meskipun ada upaya kuat, Kekhawatiran atau kecemasan yang berlebihan, Hiperaktif, Mimpi buruk yang gigih, Ketidaktaatan yang terus -menerus dan/atau perilaku agresif, Tantrum temperamen yang sering terjadi"
+
+  utter_fact_8:
+  - text: "Ketika penyembuhan dari penyakit mental, identifikasi dan pengobatan dini sangat penting. Berdasarkan sifat penyakit, ada berbagai perawatan efektif yang tersedia. Untuk semua jenis perawatan, penting bahwa orang yang terkena dampak proaktif dan sepenuhnya terlibat dalam proses pemulihan mereka sendiri. Banyak orang dengan penyakit mental yang didiagnosis dan dirawat merespons dengan baik, meskipun beberapa mungkin mengalami kembalinya gejala. Bahkan dalam kasus seperti itu, dengan pemantauan dan pengelolaan gangguan yang cermat, masih sangat mungkin untuk menjalani kehidupan yang terpenuhi dan produktif."
+
+  utter_fact_9:
+  - text: "Meskipun saya tidak dapat menggantikan nasihat profesional, kami mendorong mereka yang memiliki gejala untuk berbicara dengan teman dan anggota keluarga mereka dan mencari nasihat seorang profesional kesehatan mental. Semakin cepat kondisi kesehatan mental diidentifikasi dan dirawat, semakin cepat mereka bisa berada di jalan menuju pemulihan. Jika Anda mengenal seseorang yang mengalami masalah, jangan berasumsi bahwa masalah itu akan sembuh sendiri. Biarkan mereka tahu bahwa Anda peduli pada mereka, dan ada pilihan perawatan yang tersedia yang akan membantu mereka sembuh. Bicaralah dengan seorang profesional atau penasihat kesehatan mental jika Anda pikir teman atau anggota keluarga Anda mengalami gejala kondisi kesehatan mental. Jika orang yang terkasih tahu bahwa Anda mendukung mereka, mereka akan lebih cenderung mencari bantuan."
+
+  utter_fact_10:
+  - text: "Merasa nyaman dengan profesional sangat penting untuk keberhasilan perawatan. Menemukan profesional yang paling sesuai dengan kebutuhan Anda mungkin memerlukan penelitian. Mulailah dengan mencari penyedia di daerah Anda."
+
+  utter_fact_11:
+  - text: "Karena memulai perawatan adalah langkah besar bagi individu dan keluarga, itu bisa sangat luar biasa. Penting untuk terlibat dan terlibat dalam proses perawatan sebanyak mungkin. Beberapa pertanyaan yang perlu Anda jawab termasuk:, Apa yang diketahui tentang penyebab penyakit khusus ini?, Apakah ada diagnosis lain di mana gejala -gejala ini umum?, Apakah Anda biasanya memasukkan pemeriksaan fisik atau neurologis?, Apakah ada tes atau ujian tambahan yang akan Anda rekomendasikan pada saat ini?, Apakah Anda akan menyarankan pendapat independen dari psikiater lain saat ini?, Program pengobatan apa yang paling membantu dengan diagnosis ini?, Apakah program ini akan melibatkan layanan oleh spesialis lain? Jika demikian, siapa yang akan bertanggung jawab untuk mengoordinasikan layanan ini?, Apa yang Anda lihat sebagai peran keluarga dalam program perawatan ini?, Berapa banyak akses yang akan dimiliki keluarga kepada orang -orang yang menyediakan perawatan?, Obat apa yang umumnya digunakan dengan diagnosis ini?, Berapa banyak pengalaman yang Anda miliki dalam memperlakukan orang dengan penyakit ini?, Apa yang dapat saya lakukan untuk membantu Anda dalam perawatan?"
+
+  utter_fact_12:
+  - text: "Di mana Anda mencari bantuan akan tergantung pada sifat masalah dan/atau gejala dan apa yang paling cocok untuk Anda. Seringkali, tempat terbaik untuk memulai adalah dengan berbicara dengan seseorang yang Anda percayai tentang kekhawatiran Anda, seperti anggota keluarga, teman, pendeta, penyedia layanan kesehatan, atau profesional lainnya. Memiliki dukungan sosial ini sangat penting dalam penyembuhan dari penyakit mental, dan Anda akan dapat meminta mereka untuk rujukan atau rekomendasi untuk praktisi kesehatan mental tepercaya. Cari sumber daya kesehatan mental di daerah Anda. Kedua, ada orang dan tempat di seluruh negeri yang menyediakan layanan untuk berbicara, mendengarkan, dan membantu Anda dalam perjalanan menuju pemulihan. Ketiga, banyak orang menemukan peer mendukung alat yang bermanfaat yang dapat membantu pemulihan mereka. Ada berbagai organisasi yang menawarkan kelompok pendukung untuk konsumen, anggota keluarga mereka, dan teman -teman. Beberapa kelompok pendukung dipimpin rekan sementara yang lain mungkin dipimpin oleh profesional kesehatan mental."
+
+  utter_fact_13:
+  - text: "Seringkali lebih realistis dan bermanfaat untuk mengetahui apa yang membantu dengan masalah yang Anda hadapi. Berbicara, konseling, obat -obatan, persahabatan, olahraga, tidur nyenyak dan nutrisi, dan pekerjaan yang bermakna semuanya bisa membantu."
+
+  utter_fact_14:
+  - text: "Tantangan atau masalah dengan kesehatan mental Anda dapat muncul dari masalah psikologis, biologis, dan sosial, serta peristiwa kehidupan."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_provide_motivation
+  - action_greet_user
+  - action_bye_user
+  - action_semantic_response
+
+slots:
+  last_greet:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+
+  name:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+

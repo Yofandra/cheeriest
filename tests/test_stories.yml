@@ -1,0 +1,54 @@
+version: "3.1"
+
+stories:
+- story: meditation advice
+  steps:
+    - intent: user_agree
+    - action: utter_user_agree
+    - intent: meditation
+    - action: utter_meditation
+    - intent: user_motivation
+    - action: action_provide_motivation
+    - intent: goodbye
+    - action: action_bye_user
+
+- story: enough
+  steps:
+    - intent: not_talking
+    - action: utter_not_talking
+    - intent: done
+    - action: utter_done
+    - intent: goodbye
+    - action: action_bye_user
+
+- story: self harm and scared
+  steps:
+    - intent: self_harm
+    - action: utter_self_harm
+    - intent: scared
+    - action: utter_scared
+    - intent: user_motivation
+    - action: action_provide_motivation
+    - intent: goodbye
+    - action: action_bye_user
+
+- story: ask for help
+  steps:
+    - intent: need_help
+    - action: utter_need_help
+    - intent: user_motivation
+    - action: action_provide_motivation
+    - intent: goodbye
+    - action: action_bye_user
+
+- story: stressed not talking
+  steps:
+    - intent: stressed
+    - action: utter_stressed
+    - intent: not_talking
+    - action: utter_not_talking
+    - intent: user_motivation
+    - action: action_provide_motivation
+    - intent: goodbye
+    - action: action_bye_user
+
