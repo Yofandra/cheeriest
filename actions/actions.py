@@ -90,7 +90,7 @@ class ActionSemanticResponse(Action):
         self.model = SentenceTransformer('all-MiniLM-L6-v2')
         self.data_path = 'dataset/dataset_psych8k.json'
         self.embedding_path = 'dataset/dataset_psych8k_embeddings.npy'
-        self.threshold = 0.6  # Threshold untuk skor kemiripan
+        self.threshold = 0.5  # Ambang batas untuk kemiripan
         self.messages = []
         self.responses = []
         self.embeddings = None

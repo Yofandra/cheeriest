@@ -91,6 +91,7 @@ responses:
   - text: "Tentu. Beri tahu saya bagaimana saya bisa membantu Anda"
   - text: "Ceritakan masalah Anda sehingga saya dapat membantu Anda"
   - text: "Ya, tentu saja. Bagaimana saya bisa membantu Anda?"
+  - text: "Ya, tentu saja. Ceritakan saja padaku"
 
   utter_feeling_sad:
   - text: "Saya menyesal mendengarnya. Aku di sini untukmu. Membicarakannya mungkin membantu. Jadi, beri tahu saya mengapa menurut Anda Anda merasa seperti ini?"
@@ -101,7 +102,7 @@ responses:
   utter_stressed:
   - text: "Menurut Anda apa yang menyebabkan ini?"
   - text: "Ambil napas dalam -dalam dan kumpulkan pikiran Anda. Berjalan -jalanlah jika memungkinkan. Tetap terhidrasi"
-  - text: "Beri diri Anda istirahat. Mudah diri sendiri."
+  - text: "Beri diri Anda istirahat. jangan terlalu keras pada diri sendiri."
   - text: "Saya menyesal mendengarnya. Apa alasan di balik ini?"
 
   utter_depressed:
@@ -148,7 +149,6 @@ responses:
   utter_suicide:
   - text: "Saya sangat menyesal mendengarnya tetapi Anda memiliki banyak hal untuk dinantikan. Silakan mencari bantuan orang terdekat anda atau tenaga profesional"
   - text: "Saya sangat menyesal kamu merasa seperti ini. Kamu tidak sendirian, dan perasaan ini sangat berat untuk ditanggung sendiri Tolong pertimbangkan untuk berbicara dengan seseorang yang kamu percaya, seperti keluarga, sahabat, atau tenaga profesional. Jika kamu dalam keadaan darurat, hubungi layanan bantuan krisis terdekat. Kamu pantas mendapatkan dukungan dan bantuan."
-
 
   utter_hate_bot:
   - text: "Saya minta maaf jika saya menyinggung Anda. Saya hanya di sini untuk membantu"

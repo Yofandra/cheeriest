@@ -132,6 +132,8 @@ nlu:
     - Saya butuh dukungan
     - Saya butuh bantuan
     - Tolong dukung saya
+    - saya ingin bercerita
+    - bolehkah saya bercerita?
 
 - intent: feeling_sad
   examples: |
